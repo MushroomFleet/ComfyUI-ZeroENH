@@ -1,0 +1,166 @@
+{
+  "name": "Cyberpunk",
+  "description": "Neon-noir dystopian enhancement vocabulary - blade runner, ghost in the shell, akira aesthetics",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "{subject}, {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{style}, {subject}, {environment}, {lighting}, {details}, {mood}",
+    "{camera}, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{mood} scene, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "{style}, {subject}, {environment}, {lighting}, {camera}, {details}"
+  ],
+
+  "pools": {
+    "subject": [
+      "a cyborg", "a hacker", "a street samurai", "a netrunner", "a corpo agent",
+      "a mercenary", "a fixer", "a ripperdoc", "a nomad", "a booster",
+      "a synth", "an android", "a replicant", "a combat drone", "a mech",
+      "a augmented soldier", "a chrome warrior", "a data thief", "a techie",
+      "a street punk", "a gang leader", "a black market dealer", "a smuggler",
+      "a bounty hunter", "a corporate assassin", "a resistance fighter",
+      "a rogue AI", "a holographic singer", "a braindance editor",
+      "a cyber-ninja", "a tech-priest", "a wire-head", "a ghost in the machine"
+    ],
+
+    "action": [
+      "jacking into", "hacking through", "stalking through", "running through",
+      "fighting in", "hiding in", "surveilling", "infiltrating",
+      "escaping from", "hunting in", "patrolling", "waiting in",
+      "dealing in", "negotiating in", "confronting enemies in",
+      "uploading consciousness in", "downloading data in", "interfacing with"
+    ],
+
+    "environment": [
+      "a neon-lit alley", "a rain-soaked street", "a megacorp tower",
+      "a black market", "an underground club", "a hacker den", "a chop shop",
+      "a corporate plaza", "a slum district", "a rooftop garden",
+      "a abandoned factory", "a neon arcade", "a synth bar",
+      "an augmentation clinic", "a data center", "a skybridge",
+      "a flooded lower city", "a holographic plaza", "a smuggler's hideout",
+      "a virtual reality construct", "inside a mainframe", "a chrome tower",
+      "a toxic wasteland", "a vertical slum", "a orbital station",
+      "a arcology", "a combat zone", "a red light district"
+    ],
+
+    "style": [
+      "cyberpunk aesthetic", "blade runner style", "ghost in the shell style",
+      "cinematic", "hyperrealistic", "neon noir", "tech noir",
+      "akira style", "concept art", "digital painting", "3D render",
+      "photorealistic", "dystopian realism", "neo-tokyo style",
+      "synthwave", "vaporwave aesthetic", "gritty realism",
+      "retro-futurism", "chrome aesthetic", "dark cyberpunk"
+    ],
+
+    "lighting": [
+      "neon lighting", "holographic light", "rain-refracted neon",
+      "harsh fluorescent", "bioluminescent glow", "LED strips",
+      "volumetric fog", "dramatic rim lighting", "low key lighting",
+      "high contrast", "glitching light", "pulsing neon",
+      "cool blue lighting", "magenta and cyan neon", "foggy atmosphere",
+      "smog-filtered light", "advertisement glow", "laser lighting"
+    ],
+
+    "camera": [
+      "close-up portrait", "medium shot", "wide shot", "establishing shot",
+      "low angle shot", "dutch angle", "over the shoulder",
+      "first person view", "shallow depth of field", "bokeh background",
+      "long exposure light trails", "motion blur", "surveillance camera angle",
+      "drone shot", "tracking shot", "extreme close-up on chrome"
+    ],
+
+    "details": [
+      "highly detailed", "intricate details", "8k", "ultra HD",
+      "ray tracing", "realistic textures", "sharp focus",
+      "trending on artstation", "cinematic quality", "film grain",
+      "chromatic aberration", "lens flare", "rain droplets on lens",
+      "reflective surfaces", "chrome details", "circuit patterns"
+    ],
+
+    "mood": [
+      "ominous", "tense", "mysterious", "dystopian", "melancholic",
+      "intense", "dangerous", "lonely", "alienating", "chaotic",
+      "oppressive", "paranoid", "desperate", "rebellious", "noir",
+      "gritty", "bleak", "electric", "frenetic", "haunting"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": [
+        "cyborg", "hacker", "samurai", "netrunner", "mercenary", "android",
+        "replicant", "synth", "drone", "mech", "soldier", "assassin",
+        "punk", "dealer", "smuggler", "bounty hunter", "AI", "ghost"
+      ],
+      "patterns": ["^a ", "^an ", "^the "]
+    },
+    "action": {
+      "keywords": [
+        "jacking", "hacking", "stalking", "running", "fighting", "hiding",
+        "infiltrating", "escaping", "hunting", "patrolling", "dealing",
+        "uploading", "downloading", "interfacing"
+      ],
+      "patterns": ["ing\\s+(into|through|in|from)"]
+    },
+    "environment": {
+      "keywords": [
+        "alley", "street", "tower", "market", "club", "den", "shop",
+        "plaza", "district", "factory", "arcade", "bar", "clinic",
+        "center", "bridge", "city", "slum", "wasteland", "station"
+      ],
+      "patterns": ["^in (a |an |the )?", "^inside"]
+    },
+    "style": {
+      "keywords": [
+        "cyberpunk", "blade runner", "ghost in the shell", "neon noir",
+        "akira", "synthwave", "vaporwave", "dystopian", "chrome"
+      ],
+      "patterns": ["style$", "aesthetic$"]
+    },
+    "lighting": {
+      "keywords": [
+        "neon", "holographic", "fluorescent", "LED", "bioluminescent",
+        "volumetric", "rim lighting", "laser", "glow"
+      ],
+      "patterns": ["lighting$", "light$"]
+    },
+    "camera": {
+      "keywords": [
+        "close-up", "wide shot", "medium shot", "angle", "view",
+        "bokeh", "depth of field", "motion blur", "drone", "tracking"
+      ],
+      "patterns": ["shot$", "angle$", "view$"]
+    },
+    "details": {
+      "keywords": [
+        "detailed", "8k", "ray tracing", "chrome", "circuit",
+        "reflective", "cinematic", "film grain"
+      ],
+      "patterns": ["detailed$", "quality$"]
+    },
+    "mood": {
+      "keywords": [
+        "dystopian", "noir", "tense", "ominous", "paranoid",
+        "gritty", "bleak", "chaotic", "dangerous", "electric"
+      ],
+      "patterns": ["atmosphere$", "mood$"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details", "lighting"],
+    "never_override": ["subject"],
+    "standard": ["style", "environment", "camera"],
+    "optional": ["mood", "action"]
+  },
+
+  "anti_pairs": {
+    "neon": ["candlelight", "firelight", "torchlight", "golden hour", "sunset"],
+    "cyberpunk": ["medieval", "fantasy", "baroque", "renaissance"],
+    "dystopian": ["joyful", "whimsical", "playful", "serene", "peaceful"],
+    "chrome": ["watercolor", "oil painting", "sketch", "gouache"],
+    "virtual": ["outdoor", "natural", "forest", "mountain"]
+  }
+}

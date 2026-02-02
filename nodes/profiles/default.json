@@ -1,0 +1,240 @@
+{
+  "name": "Default",
+  "description": "V1-compatible vanilla enhancement - universal vocabulary for general image generation",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "{subject}, {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{subject}, {environment}, {style}, {lighting}, {details}, {mood}",
+    "{style}, {subject}, {environment}, {lighting}, {camera}, {details}",
+    "{camera}, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {environment}, {style}, {lighting}, {details}",
+    "{mood} scene, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "{style}, {subject}, {environment}, {lighting}, {mood}, {details}"
+  ],
+
+  "pools": {
+    "subject": [
+      "a woman", "a man", "a young woman", "a young man", "an elderly woman",
+      "an elderly man", "a child", "a teenager", "a couple", "a group of people",
+      "a knight", "a wizard", "a witch", "a sorceress", "a necromancer",
+      "a paladin", "a rogue", "an assassin", "a ranger", "a barbarian",
+      "a druid", "a monk", "a bard", "a warlock", "an elven archer",
+      "a dwarven smith", "an orc warrior", "a goblin", "a fairy", "a nymph",
+      "a cyborg", "an android", "a robot", "a mech pilot", "an astronaut",
+      "a space marine", "an alien", "a hacker", "a scientist", "a bounty hunter",
+      "a samurai", "a ninja", "a viking", "a gladiator", "a pharaoh",
+      "a geisha", "a shogun", "a roman soldier", "a medieval peasant", "a noble",
+      "a detective", "a soldier", "a pilot", "a doctor", "an artist",
+      "a musician", "a dancer", "an athlete", "a chef", "a photographer",
+      "a dragon", "a phoenix", "a griffin", "a unicorn", "a werewolf",
+      "a vampire", "a demon", "an angel", "a ghost", "a spirit",
+      "a wolf", "a lion", "a tiger", "an eagle", "a raven",
+      "a serpent", "a whale", "a shark", "a butterfly", "a spider",
+      "a mechanical spider", "a clockwork automaton", "a golem", "a sentient statue",
+      "a living shadow", "an elemental being", "a slime creature", "a treant"
+    ],
+
+    "action": [
+      "standing in", "sitting in", "kneeling in", "floating above", "hovering over",
+      "resting in", "meditating in", "posing in", "waiting in", "watching over",
+      "walking through", "running through", "flying over", "swimming in", "climbing",
+      "falling into", "descending into", "ascending toward", "emerging from", "diving into",
+      "fighting in", "battling through", "defending", "attacking", "dueling in",
+      "charging through", "retreating from", "ambushing in", "hunting in",
+      "exploring", "discovering", "searching through", "investigating",
+      "summoning power in", "casting a spell in", "channeling energy in",
+      "communing with nature in", "praying in", "performing a ritual in",
+      "transforming in", "shapeshifting in", "awakening in",
+      "mourning in", "celebrating in", "contemplating in", "dreaming in"
+    ],
+
+    "environment": [
+      "a dark forest", "an enchanted forest", "a misty forest", "a bamboo forest",
+      "a snowy mountain", "a volcanic mountain", "a floating mountain",
+      "a vast desert", "an oasis", "a canyon", "a waterfall", "a river",
+      "a beach at sunset", "a stormy sea", "a coral reef", "an underwater cavern",
+      "a medieval castle", "a ruined fortress", "a gothic cathedral",
+      "an ancient temple", "a hidden shrine", "a sacred grove",
+      "a wizard's tower", "an alchemist's laboratory", "a royal throne room",
+      "a dungeon", "catacombs", "a crypt", "a graveyard at midnight",
+      "a cyberpunk city", "a neon-lit alley", "a futuristic metropolis",
+      "a space station", "an alien planet", "a terraformed moon",
+      "a dystopian wasteland", "a post-apocalyptic city", "a megastructure",
+      "a virtual reality world", "inside a computer mainframe",
+      "a crystal cave", "a bioluminescent cavern", "a floating island",
+      "the astral plane", "between dimensions", "the void",
+      "a pocket dimension", "a mirror world", "a dream realm",
+      "cherry blossom gardens", "an autumn forest", "a field of flowers",
+      "under the northern lights", "during a solar eclipse"
+    ],
+
+    "style": [
+      "photorealistic", "hyperrealistic", "cinematic", "film still",
+      "documentary photography", "portrait photography", "fashion photography",
+      "oil painting", "watercolor painting", "acrylic painting", "gouache",
+      "charcoal drawing", "pencil sketch", "ink drawing", "fresco",
+      "art nouveau", "art deco", "baroque", "renaissance", "romanticism",
+      "impressionist", "expressionist", "surrealist", "cubist",
+      "pre-raphaelite", "ukiyo-e", "chinese ink wash",
+      "concept art", "digital painting", "matte painting", "3D render",
+      "low poly 3D", "voxel art", "pixel art", "vector art",
+      "anime style", "manga style", "studio ghibli style", "disney style",
+      "pixar style", "cartoon style", "comic book style", "graphic novel style",
+      "vaporwave aesthetic", "synthwave", "cyberpunk aesthetic", "solarpunk",
+      "dark academia", "cottagecore", "steampunk", "dieselpunk", "biopunk",
+      "dark souls style", "elden ring style", "final fantasy style"
+    ],
+
+    "lighting": [
+      "golden hour lighting", "blue hour lighting", "harsh midday sun",
+      "soft overcast light", "dappled forest light", "sunset backlight",
+      "sunrise light", "moonlight", "starlight",
+      "dramatic rim lighting", "chiaroscuro lighting", "spotlight",
+      "harsh shadows", "silhouette lighting", "contre-jour",
+      "neon lighting", "fluorescent lighting", "candlelight", "firelight",
+      "bioluminescent glow", "magical glow", "holographic light",
+      "volumetric lighting", "god rays", "light shafts", "foggy atmosphere",
+      "misty atmosphere", "dusty atmosphere", "rainy atmosphere",
+      "warm lighting", "cool lighting", "neutral lighting",
+      "high contrast", "low key lighting", "high key lighting"
+    ],
+
+    "camera": [
+      "extreme close-up", "close-up portrait", "medium shot", "full body shot",
+      "wide shot", "extreme wide shot", "establishing shot",
+      "eye level", "low angle shot", "high angle shot", "bird's eye view",
+      "worm's eye view", "dutch angle", "overhead shot",
+      "first person view", "over the shoulder", "point of view shot",
+      "three-quarter view", "profile view", "frontal view", "rear view",
+      "shallow depth of field", "deep focus", "bokeh background",
+      "motion blur", "long exposure", "tilt-shift", "fisheye lens",
+      "wide angle lens", "telephoto compression", "macro shot"
+    ],
+
+    "details": [
+      "highly detailed", "intricate details", "fine details", "subtle details",
+      "sharp focus", "crystal clear", "pristine quality",
+      "4k", "8k", "high resolution", "ultra HD",
+      "masterpiece", "award winning", "professional", "museum quality",
+      "trending on artstation", "featured on behance", "gallery quality",
+      "ray tracing", "global illumination", "subsurface scattering",
+      "ambient occlusion", "realistic textures", "photogrammetry",
+      "expressive brushwork", "visible brushstrokes", "smooth gradients",
+      "rich colors", "vibrant palette", "muted tones", "monochromatic"
+    ],
+
+    "mood": [
+      "serene", "peaceful", "tranquil", "joyful", "euphoric",
+      "whimsical", "playful", "romantic", "hopeful", "triumphant",
+      "ominous", "foreboding", "melancholic", "sorrowful", "tragic",
+      "terrifying", "horrific", "unsettling", "disturbing",
+      "mysterious", "enigmatic", "surreal", "dreamlike", "ethereal",
+      "nostalgic", "bittersweet", "contemplative", "introspective",
+      "tense", "intense", "chaotic", "explosive", "dynamic",
+      "calm", "still", "quiet", "subtle", "understated",
+      "epic", "grand", "intimate", "cozy", "lonely", "isolated"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": [
+        "woman", "man", "girl", "boy", "person", "people", "child", "teen",
+        "knight", "wizard", "witch", "warrior", "soldier", "samurai", "ninja",
+        "dragon", "phoenix", "wolf", "lion", "tiger", "cat", "dog", "bird",
+        "robot", "android", "cyborg", "alien", "demon", "angel", "ghost",
+        "fairy", "elf", "dwarf", "orc", "goblin", "vampire", "werewolf"
+      ],
+      "patterns": ["^a ", "^an ", "^the ", "^my "]
+    },
+    "action": {
+      "keywords": [
+        "standing", "sitting", "walking", "running", "flying", "swimming",
+        "fighting", "battling", "dancing", "singing", "playing", "reading",
+        "casting", "summoning", "meditating", "praying", "sleeping", "dreaming",
+        "exploring", "hunting", "searching", "watching", "waiting"
+      ],
+      "patterns": ["ing\\s+(in|on|at|through|over|above|below|near)"]
+    },
+    "environment": {
+      "keywords": [
+        "forest", "mountain", "desert", "ocean", "sea", "beach", "river",
+        "city", "town", "village", "castle", "tower", "temple", "church",
+        "cave", "cavern", "dungeon", "ruins", "wasteland", "garden",
+        "space", "planet", "moon", "station", "void", "dimension", "realm"
+      ],
+      "patterns": ["^in (a |an |the )?", "^at (a |an |the )?", "^inside"]
+    },
+    "style": {
+      "keywords": [
+        "photorealistic", "hyperrealistic", "realistic", "cinematic",
+        "painting", "drawing", "sketch", "illustration", "render",
+        "anime", "manga", "cartoon", "comic", "pixel", "voxel",
+        "baroque", "renaissance", "impressionist", "surrealist",
+        "cyberpunk", "steampunk", "solarpunk", "dieselpunk",
+        "art nouveau", "art deco", "gothic", "victorian"
+      ],
+      "patterns": ["style$", "aesthetic$", "^in the style of"]
+    },
+    "lighting": {
+      "keywords": [
+        "lighting", "light", "lit", "glow", "glowing", "illuminated",
+        "shadow", "shadows", "sunlight", "moonlight", "starlight",
+        "golden hour", "blue hour", "sunset", "sunrise", "dawn", "dusk",
+        "neon", "fluorescent", "candlelight", "firelight", "torchlight"
+      ],
+      "patterns": ["lighting$", "light$", "lit$"]
+    },
+    "camera": {
+      "keywords": [
+        "close-up", "closeup", "wide shot", "medium shot", "full body",
+        "portrait", "angle", "view", "perspective", "lens",
+        "bokeh", "depth of field", "dof", "focus", "blur",
+        "fisheye", "telephoto", "macro", "tilt-shift"
+      ],
+      "patterns": ["shot$", "angle$", "view$", "^\\d+mm"]
+    },
+    "details": {
+      "keywords": [
+        "detailed", "intricate", "sharp", "crisp", "clear",
+        "4k", "8k", "hd", "uhd", "high resolution",
+        "masterpiece", "quality", "professional", "award",
+        "artstation", "behance", "trending"
+      ],
+      "patterns": ["detailed$", "quality$", "^\\d+k$"]
+    },
+    "mood": {
+      "keywords": [
+        "serene", "peaceful", "calm", "tranquil", "joyful", "happy",
+        "dark", "ominous", "foreboding", "mysterious", "eerie",
+        "epic", "dramatic", "intense", "dynamic", "chaotic",
+        "melancholic", "sad", "nostalgic", "romantic", "dreamy"
+      ],
+      "patterns": ["atmosphere$", "mood$", "feeling$", "vibe$"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details"],
+    "never_override": ["subject"],
+    "standard": ["style", "lighting", "environment", "camera"],
+    "optional": ["mood", "action"]
+  },
+
+  "anti_pairs": {
+    "underwater": ["sunset", "sunrise", "golden hour", "harsh sunlight", "dusty atmosphere"],
+    "space station": ["golden hour", "forest light", "dappled"],
+    "cave": ["golden hour", "blue hour", "sunset backlight", "harsh midday sun"],
+    "night": ["harsh midday sun", "bright daylight", "golden hour"],
+    "graveyard": ["joyful", "playful", "whimsical", "euphoric"],
+    "sunny": ["ominous", "foreboding", "horrific", "terrifying"],
+    "pixel art": ["ray tracing", "photogrammetry", "subsurface scattering", "hyperrealistic"],
+    "watercolor": ["8k", "photogrammetry", "hyperrealistic", "ray tracing"],
+    "sketch": ["ray tracing", "photogrammetry", "8k resolution"],
+    "moonlight": ["harsh midday sun", "golden hour", "bright daylight"],
+    "neon": ["candlelight", "firelight", "torchlight", "medieval"]
+  }
+}

@@ -1,0 +1,20 @@
+[project]
+name = "comfyui-zeroenh"
+version = "1.0.0"
+description = "Deterministic Prompt Enhancement via Procedural Augmentation for ComfyUI"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+dependencies = [
+    "xxhash>=3.0.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/MushroomFleet/ComfyUI-ZeroENH"
+Repository = "https://github.com/MushroomFleet/ComfyUI-ZeroENH"
+Issues = "https://github.com/MushroomFleet/ComfyUI-ZeroENH/issues"
+
+[tool.comfy]
+PublisherId = "mushroomfleet"
+DisplayName = "ZeroENH - Deterministic Prompt Enhancement"
+Icon = ""

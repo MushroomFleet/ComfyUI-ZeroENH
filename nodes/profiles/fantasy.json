@@ -1,0 +1,188 @@
+{
+  "name": "Fantasy",
+  "description": "Epic high fantasy enhancement vocabulary - tolkien, dungeons & dragons, mythological aesthetics",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "{subject}, {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{style}, {subject}, {environment}, {lighting}, {details}, {mood}",
+    "{mood} scene, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{camera}, {subject}, {environment}, {style}, {lighting}, {details}",
+    "epic {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "majestic {subject}, {environment}, {style}, {lighting}, {camera}, {details}"
+  ],
+
+  "pools": {
+    "subject": [
+      "a knight in shining armor", "a wise wizard", "a dark sorceress", "an elven queen",
+      "a dwarven king", "a young hero", "a battle-worn paladin", "a mysterious ranger",
+      "a fierce barbarian", "a cunning rogue", "a holy cleric", "a wild druid",
+      "a noble prince", "a warrior princess", "an ancient dragon", "a phoenix rising",
+      "a majestic griffin", "an ethereal unicorn", "a fearsome werewolf", "an elegant vampire",
+      "a celestial angel", "a fallen angel", "a bound demon", "a forest spirit",
+      "a water nymph", "an earth elemental", "a fire elemental", "a storm giant",
+      "a treant guardian", "a wise centaur", "a mysterious sphinx", "a noble pegasus",
+      "a valiant squire", "a court jester", "a sage scholar", "a blacksmith",
+      "a elven archer", "a dwarven warrior", "an orc chieftain", "a goblin shaman",
+      "a fairy queen", "a merfolk warrior", "a basilisk", "a hydra",
+      "a lich king", "a death knight", "a archmage", "a high priestess"
+    ],
+
+    "action": [
+      "standing guard in", "riding through", "battling evil in", "casting a spell in",
+      "defending the realm in", "seeking wisdom in", "training warriors in",
+      "forging legendary weapons in", "communing with spirits in", "leading an army through",
+      "discovering ancient secrets in", "breaking a curse in", "protecting the innocent in",
+      "ascending the throne in", "fulfilling a prophecy in", "making a last stand in",
+      "embarking on a quest in", "returning victorious to", "meditating in",
+      "summoning power in", "channeling magic in", "performing a ritual in",
+      "hunting monsters in", "exploring ruins in", "guarding treasure in"
+    ],
+
+    "environment": [
+      "an enchanted forest", "a mystical glade", "ancient ruins", "a dragon's lair",
+      "a towering castle", "a medieval throne room", "a wizard's tower",
+      "a sacred temple", "a hidden elven city", "a dwarven mountain hall",
+      "a battlefield at dawn", "a mystical lake", "the edge of a cliff",
+      "a fairy ring", "an ancient library", "a cursed swamp",
+      "a floating citadel", "the realm between worlds", "a celestial palace",
+      "a volcanic forge", "an ice fortress", "a garden of statues",
+      "a crystal cavern", "the world tree", "a moonlit clearing",
+      "a ancient battlefield", "a forgotten tomb", "a sacred grove",
+      "a mountain peak", "a vast kingdom", "a shadowy forest",
+      "a underground labyrinth", "a magical academy", "a royal court"
+    ],
+
+    "style": [
+      "oil painting", "renaissance masterpiece", "pre-raphaelite style", "romanticism",
+      "concept art", "epic fantasy art", "book cover illustration", "classical painting",
+      "digital painting", "fantasy realism", "dark fantasy style", "high fantasy art",
+      "studio ghibli style", "lord of the rings style", "game of thrones style",
+      "frazetta style", "boris vallejo style", "medieval manuscript illumination",
+      "baroque", "golden age illustration", "dungeons and dragons art",
+      "magic the gathering style", "world of warcraft style", "diablo style",
+      "elder scrolls style", "dark souls style", "elden ring style"
+    ],
+
+    "lighting": [
+      "golden hour lighting", "ethereal glow", "magical light", "divine rays",
+      "moonlight", "firelight", "candlelight", "torchlight",
+      "dramatic god rays", "mystical fog", "aurora borealis",
+      "sunset light", "dawn light", "starlight", "bioluminescent glow",
+      "heavenly light", "infernal glow", "arcane energy", "crystal light",
+      "dappled forest light", "stormy dramatic light", "eclipse lighting"
+    ],
+
+    "camera": [
+      "wide establishing shot", "epic wide shot", "medium shot", "portrait shot",
+      "low angle heroic shot", "high angle view", "dramatic close-up",
+      "bird's eye view", "three-quarter view", "profile silhouette",
+      "cinematic composition", "symmetrical framing", "dynamic angle",
+      "over the shoulder", "point of view shot", "full body shot"
+    ],
+
+    "details": [
+      "highly detailed", "intricate details", "ornate details", "masterfully crafted",
+      "8k resolution", "museum quality", "award winning", "masterpiece",
+      "rich textures", "gilded accents", "jeweled embellishments", "fine craftsmanship",
+      "elaborate armor details", "magical particle effects", "ancient runes",
+      "flowing fabric", "detailed filigree", "weathered textures"
+    ],
+
+    "mood": [
+      "epic", "majestic", "triumphant", "heroic", "noble",
+      "mysterious", "ancient", "magical", "ethereal", "divine",
+      "ominous", "foreboding", "dark", "tragic", "melancholic",
+      "serene", "peaceful", "hopeful", "romantic", "legendary",
+      "mystical", "enchanting", "wondrous", "awe-inspiring", "grandiose"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": [
+        "knight", "wizard", "witch", "sorceress", "elf", "elven", "dwarf", "dwarven",
+        "dragon", "phoenix", "griffin", "unicorn", "werewolf", "vampire",
+        "angel", "demon", "spirit", "elemental", "giant", "centaur",
+        "paladin", "ranger", "barbarian", "rogue", "cleric", "druid",
+        "king", "queen", "prince", "princess", "hero", "warrior"
+      ],
+      "patterns": ["^a ", "^an ", "^the "]
+    },
+    "action": {
+      "keywords": [
+        "battling", "casting", "defending", "seeking", "forging", "communing",
+        "discovering", "protecting", "ascending", "fulfilling", "embarking",
+        "summoning", "channeling", "hunting", "exploring", "guarding"
+      ],
+      "patterns": ["ing\\s+(in|through|to|from)"]
+    },
+    "environment": {
+      "keywords": [
+        "forest", "glade", "ruins", "lair", "castle", "throne", "tower",
+        "temple", "city", "hall", "battlefield", "lake", "cliff",
+        "library", "swamp", "citadel", "palace", "forge", "fortress",
+        "cavern", "clearing", "tomb", "grove", "peak", "kingdom"
+      ],
+      "patterns": ["^in (a |an |the )?", "^at (a |an |the )?"]
+    },
+    "style": {
+      "keywords": [
+        "painting", "renaissance", "pre-raphaelite", "romanticism", "fantasy",
+        "classical", "digital", "dark fantasy", "high fantasy", "ghibli",
+        "tolkien", "frazetta", "baroque", "medieval", "concept art"
+      ],
+      "patterns": ["style$", "art$"]
+    },
+    "lighting": {
+      "keywords": [
+        "golden hour", "ethereal", "magical", "divine", "moonlight",
+        "firelight", "candlelight", "torchlight", "god rays", "mystical",
+        "aurora", "starlight", "heavenly", "infernal", "arcane"
+      ],
+      "patterns": ["lighting$", "light$", "glow$"]
+    },
+    "camera": {
+      "keywords": [
+        "wide shot", "epic shot", "portrait", "heroic shot", "close-up",
+        "bird's eye", "silhouette", "cinematic", "dynamic angle"
+      ],
+      "patterns": ["shot$", "angle$", "view$"]
+    },
+    "details": {
+      "keywords": [
+        "detailed", "intricate", "ornate", "masterfully", "8k",
+        "museum", "award", "masterpiece", "gilded", "jeweled"
+      ],
+      "patterns": ["detailed$", "quality$"]
+    },
+    "mood": {
+      "keywords": [
+        "epic", "majestic", "triumphant", "heroic", "noble", "mysterious",
+        "ancient", "magical", "ethereal", "divine", "ominous", "dark",
+        "serene", "peaceful", "legendary", "mystical", "enchanting"
+      ],
+      "patterns": ["atmosphere$", "mood$"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details"],
+    "never_override": ["subject"],
+    "standard": ["style", "lighting", "environment", "camera"],
+    "optional": ["mood", "action"]
+  },
+
+  "anti_pairs": {
+    "celestial": ["infernal", "demonic", "dark", "corrupted"],
+    "divine": ["unholy", "cursed", "demonic"],
+    "peaceful": ["chaotic", "violent", "terrifying", "ominous"],
+    "serene": ["intense", "dramatic", "explosive", "chaotic"],
+    "holy": ["demonic", "cursed", "unholy", "infernal"],
+    "elven": ["industrial", "mechanical", "cyberpunk", "technological"],
+    "medieval": ["futuristic", "modern", "cyberpunk", "neon"],
+    "ancient": ["futuristic", "modern", "technological"]
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "name": "Horror",
+  "description": "Dark horror enhancement vocabulary - lovecraftian, gothic, psychological terror aesthetics",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "{subject}, {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{mood} scene, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{style}, {subject}, {environment}, {lighting}, {details}, {mood}",
+    "{camera}, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "nightmarish {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {environment}, {style}, {lighting}, {mood}, {details}"
+  ],
+
+  "pools": {
+    "subject": [
+      "a shadowy figure", "a pale ghost", "a vengeful spirit", "a demonic entity",
+      "a rotting corpse", "a skeletal apparition", "a faceless creature", "a twisted abomination",
+      "a eldritch horror", "a cosmic entity", "a tentacled monstrosity", "a formless void",
+      "a possessed doll", "a cursed child", "a sinister clown", "a masked killer",
+      "a vampire lord", "a werewolf beast", "a flesh golem", "a stitched creature",
+      "a witch coven", "a cult leader", "a mad scientist", "a deranged asylum patient",
+      "a drowned corpse", "a burned specter", "a hanging victim", "a decapitated ghost",
+      "a crawling horror", "a spider-like creature", "a centipede monster", "a parasitic organism",
+      "a doppelganger", "a shapeshifter", "a skin-walker", "a wendigo",
+      "a banshee", "a wraith", "a poltergeist", "a shadow demon",
+      "a ancient evil", "a sleeping god", "a thing from beyond", "a nameless dread"
+    ],
+
+    "action": [
+      "lurking in", "emerging from", "crawling through", "stalking through",
+      "haunting", "possessing", "consuming", "corrupting",
+      "watching from", "waiting in", "rising from", "descending into",
+      "feeding in", "hunting in", "manifesting in", "materializing in",
+      "whispering in", "screaming in", "reaching from", "clawing through",
+      "transforming in", "decaying in", "spreading through", "infesting"
+    ],
+
+    "environment": [
+      "an abandoned asylum", "a decrepit mansion", "a forgotten cemetery",
+      "a dark basement", "a flooded morgue", "a crumbling church",
+      "a fog-shrouded forest", "a cursed village", "a haunted house",
+      "a blood-stained room", "a torture chamber", "a sacrificial altar",
+      "an endless corridor", "a mirror dimension", "a nightmare realm",
+      "a frozen wasteland", "a rotting swamp", "a plague-ridden town",
+      "catacombs filled with bones", "a abandoned hospital", "a meat processing plant",
+      "a child's bedroom at night", "an attic filled with dolls", "a flooded basement",
+      "a cornfield at midnight", "a lonely highway", "a abandoned amusement park",
+      "a underwater cavern", "a collapsed mine", "a mass grave",
+      "the void between worlds", "a dimension of madness", "a living nightmare"
+    ],
+
+    "style": [
+      "horror photography", "dark cinematic", "found footage style", "psychological horror",
+      "gothic horror art", "lovecraftian style", "junji ito style", "beksinski style",
+      "giger style", "francis bacon style", "dark surrealism", "body horror",
+      "folk horror aesthetic", "cosmic horror", "atmospheric horror", "visceral horror",
+      "noir horror", "japanese horror style", "southern gothic", "urban decay aesthetic",
+      "polaroid horror", "VHS aesthetic", "grainy surveillance footage", "crime scene photo",
+      "medical illustration horror", "anatomical horror", "vintage horror poster"
+    ],
+
+    "lighting": [
+      "dim flickering light", "harsh surgical lighting", "single bare bulb",
+      "moonlight through broken windows", "lightning flash", "candlelight",
+      "flashlight beam", "emergency red lighting", "television static glow",
+      "bioluminescent decay", "sickly green light", "cold blue morgue light",
+      "fire glow", "torch light casting shadows", "blacklight",
+      "strobe lighting", "light through fog", "light from below",
+      "no visible light source", "unnatural darkness", "light that casts wrong shadows"
+    ],
+
+    "camera": [
+      "extreme close-up", "dutch angle", "shaky handheld", "static surveillance angle",
+      "low angle looking up", "high angle looking down", "first person view",
+      "over the shoulder revealing horror", "long shot isolating subject", "medium shot",
+      "distorted wide angle", "fish-eye lens", "out of focus background",
+      "split focus", "motion blur", "freeze frame",
+      "night vision", "thermal imaging style", "hidden camera angle"
+    ],
+
+    "details": [
+      "highly detailed", "disturbing details", "grotesque textures", "decaying surfaces",
+      "wet glistening surfaces", "sharp focus on horror", "8k resolution",
+      "photorealistic gore", "practical effects quality", "visceral realism",
+      "subtle wrongness", "uncanny valley details", "intricate decay",
+      "realistic blood", "detailed wounds", "texture of rot",
+      "film grain", "noise and artifacts", "imperfections and damage"
+    ],
+
+    "mood": [
+      "terrifying", "dreadful", "ominous", "foreboding", "nightmarish",
+      "unsettling", "disturbing", "creepy", "eerie", "sinister",
+      "oppressive", "suffocating", "claustrophobic", "paranoid", "anxious",
+      "hopeless", "despairing", "bleak", "nihilistic", "apocalyptic",
+      "uncanny", "wrong", "twisted", "corrupted", "infected",
+      "maddening", "sanity-breaking", "reality-warping", "cosmic dread"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": [
+        "ghost", "spirit", "demon", "corpse", "skeleton", "creature", "horror",
+        "entity", "monster", "abomination", "vampire", "werewolf", "zombie",
+        "witch", "killer", "doll", "clown", "apparition", "specter",
+        "wendigo", "banshee", "wraith", "poltergeist", "shadow"
+      ],
+      "patterns": ["^a ", "^an ", "^the "]
+    },
+    "action": {
+      "keywords": [
+        "lurking", "emerging", "crawling", "stalking", "haunting", "possessing",
+        "consuming", "corrupting", "watching", "waiting", "rising", "feeding",
+        "hunting", "manifesting", "whispering", "screaming", "reaching", "clawing"
+      ],
+      "patterns": ["ing\\s+(in|from|through)"]
+    },
+    "environment": {
+      "keywords": [
+        "asylum", "mansion", "cemetery", "basement", "morgue", "church",
+        "forest", "village", "house", "room", "chamber", "altar",
+        "corridor", "hospital", "attic", "catacombs", "grave", "void",
+        "nightmare", "swamp", "mine", "amusement park"
+      ],
+      "patterns": ["^in (a |an |the )?", "^at (a |an |the )?"]
+    },
+    "style": {
+      "keywords": [
+        "horror", "gothic", "lovecraftian", "junji ito", "beksinski", "giger",
+        "surrealism", "body horror", "cosmic horror", "folk horror",
+        "noir", "found footage", "VHS", "surveillance"
+      ],
+      "patterns": ["style$", "horror$", "aesthetic$"]
+    },
+    "lighting": {
+      "keywords": [
+        "flickering", "surgical", "moonlight", "lightning", "candlelight",
+        "flashlight", "emergency", "static", "bioluminescent", "morgue",
+        "fire", "torch", "blacklight", "strobe", "fog"
+      ],
+      "patterns": ["lighting$", "light$", "glow$"]
+    },
+    "camera": {
+      "keywords": [
+        "close-up", "dutch angle", "shaky", "surveillance", "handheld",
+        "fish-eye", "distorted", "motion blur", "night vision", "thermal"
+      ],
+      "patterns": ["shot$", "angle$", "view$"]
+    },
+    "details": {
+      "keywords": [
+        "detailed", "grotesque", "decaying", "glistening", "visceral",
+        "realistic", "uncanny", "intricate", "film grain", "artifacts"
+      ],
+      "patterns": ["detailed$", "quality$", "textures$"]
+    },
+    "mood": {
+      "keywords": [
+        "terrifying", "dreadful", "ominous", "foreboding", "nightmarish",
+        "unsettling", "disturbing", "creepy", "eerie", "sinister",
+        "oppressive", "claustrophobic", "paranoid", "hopeless", "bleak",
+        "uncanny", "twisted", "corrupted", "maddening"
+      ],
+      "patterns": ["atmosphere$", "mood$", "dread$"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details", "mood"],
+    "never_override": ["subject"],
+    "standard": ["style", "lighting", "environment", "camera"],
+    "optional": ["action"]
+  },
+
+  "anti_pairs": {
+    "horror": ["cheerful", "joyful", "whimsical", "playful", "cute"],
+    "terrifying": ["peaceful", "serene", "calm", "relaxing", "cozy"],
+    "dark": ["bright", "sunny", "golden hour", "cheerful lighting"],
+    "nightmare": ["dream", "peaceful", "pleasant", "comfortable"],
+    "decay": ["pristine", "clean", "sterile", "pure", "fresh"],
+    "gothic": ["modern minimalist", "bright", "colorful", "cheerful"],
+    "lovecraftian": ["cute", "kawaii", "cartoon", "disney style"],
+    "basement": ["sunny", "outdoor", "bright sky", "golden hour"],
+    "morgue": ["warm lighting", "cozy", "comfortable", "inviting"]
+  }
+}
