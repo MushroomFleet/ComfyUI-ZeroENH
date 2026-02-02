@@ -1,0 +1,257 @@
+{
+  "name": "Paradistro Megastructure Exterior",
+  "description": "A ZeroENH profile for generating prompts depicting colossal brutalist megastructures in space - vast living metal constructions at planetary scale with self-repairing surfaces, construction swarms, energy conduits, and industrial processing systems. Aesthetic emphasizes geometric precision, adaptive materials, and the sublime scale of post-human mega-engineering.",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "{subject}, {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{style}, {subject}, {environment}, {lighting}, {details}, {mood} scene",
+    "{camera}, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{mood} industrial vista, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "{style}, {subject}, {action}, {environment}, {lighting}, {camera}, {details}",
+    "{environment}, {subject}, {style}, {lighting}, {details}, {mood} atmosphere",
+    "{subject}, {environment}, {lighting}, {style}, {details}, planetary scale"
+  ],
+
+  "pools": {
+    "subject": [
+      "a colossal brutalist megastructure",
+      "a monumental industrial tower",
+      "endless brutalist facades",
+      "titanic industrial processing units",
+      "angular brutalist geometries",
+      "brutalist arches of impossible scale",
+      "a field of titanic brutalist pylons",
+      "geometric plateaus of living metal",
+      "colossal brutalist intake valves",
+      "vast brutalist processing nodes",
+      "angular brutalist towers",
+      "a brutalist labyrinth of industrial processes",
+      "titanic brutalist intake valves",
+      "a convergence of colossal industrial processes",
+      "massive energy collection arrays",
+      "kilometer-wide material conversion chambers",
+      "construction swarms",
+      "maintenance drones",
+      "a maintenance fleet",
+      "crystalline growths",
+      "geometric panel arrays",
+      "void-facing panels",
+      "translucent metallic skin",
+      "self-repairing metal surfaces",
+      "living metal architecture",
+      "massive energy conduits",
+      "material processing streams",
+      "a brutalist metropolis",
+      "industrial processing chambers",
+      "honeycomb energy arrays",
+      "adaptive metallic surfaces"
+    ],
+    "action": [
+      "stretching beyond the horizon",
+      "piercing the void",
+      "extending in geometric perfection",
+      "rising from the living metal",
+      "rippling with self-repair patterns",
+      "weaving new layers into existence",
+      "navigating through crystalline growths",
+      "pulsing with internal light",
+      "capturing stellar radiation",
+      "processing stellar matter",
+      "flowing through transparent channels",
+      "moving in coordinated swarms",
+      "crackling between massive conductors",
+      "dissolving into the darkness of space",
+      "casting prismatic reflections",
+      "shifting and repairing in real-time",
+      "hanging suspended between nodes",
+      "disappearing into streams of raw material",
+      "fractionalizing into infinite complexity",
+      "pivoting and adjusting to track stellar light"
+    ],
+    "environment": [
+      "the void beyond",
+      "the curved horizon of the megastructure",
+      "the shell surface",
+      "canyons of geometric architecture",
+      "the industrial expanse",
+      "the void-darkness",
+      "a haze of industrial activity",
+      "streams of raw material processing",
+      "a forest of industrial giants",
+      "the darkness of space",
+      "the vast industrial tapestry",
+      "webs of pulsing energy conduits",
+      "transparent channels",
+      "translucent panels",
+      "the ever-expanding shell",
+      "kilometer-wide chambers",
+      "the planetary-scale curvature",
+      "the metallic cliffs",
+      "processing streams",
+      "the adaptive metallic surface"
+    ],
+    "style": [
+      "brutalist industrial aesthetic",
+      "living metal surface",
+      "self-repairing patterns",
+      "geometric precision",
+      "angular industrial forms",
+      "adaptive metallic texture",
+      "fractalized recursive patterns",
+      "liquid mercury appearance",
+      "polished reflective surfaces",
+      "translucent metallic skin",
+      "honeycomb patterns",
+      "crystalline outgrowths",
+      "gunmetal surface texture",
+      "bioluminescent vein patterns",
+      "nanite-active surfaces",
+      "mirror-world reflections",
+      "void-light distortions",
+      "industrial megascale architecture",
+      "planetary engineering aesthetic",
+      "post-human construction style"
+    ],
+    "lighting": [
+      "deep ultraviolet light",
+      "deep cobalt glow",
+      "violet energy fields",
+      "purple-blue illumination",
+      "cold blue glow",
+      "violet arcs",
+      "cold fire of energy conduits",
+      "deep purple illumination",
+      "blue-white stellar radiation",
+      "cold starlight",
+      "prismatic reflections",
+      "aurora-like displays",
+      "bioluminescent veins",
+      "pulsing energy conduit light",
+      "cold fusion illumination",
+      "distant stellar light",
+      "void-reflected light",
+      "internal pulsing light",
+      "material conversion glow",
+      "formation lights"
+    ],
+    "camera": [
+      "vast scale establishing shot",
+      "curved horizon view",
+      "extreme wide shot",
+      "industrial panorama",
+      "orbital perspective",
+      "surface-level vista",
+      "void-facing angle",
+      "scale comparison shot",
+      "canyon-depth perspective",
+      "tower-climbing angle",
+      "maintenance drone POV",
+      "distant fleet perspective",
+      "geometric pattern overview",
+      "processing node approach",
+      "shell curvature view",
+      "horizon-dissolving shot"
+    ],
+    "details": [
+      "highly detailed",
+      "8k resolution",
+      "masterpiece quality",
+      "intricate surface patterns",
+      "visible nanite activity",
+      "kilometer-scale precision",
+      "ray-traced reflections",
+      "photorealistic rendering",
+      "extreme detail",
+      "sharp geometric edges",
+      "metallic texture detail",
+      "flowing repair patterns",
+      "crystalline structure detail",
+      "energy field rendering",
+      "swarm particle detail",
+      "material flow visualization",
+      "atmospheric haze detail",
+      "void-light interaction",
+      "translucent channel detail",
+      "industrial weathering"
+    ],
+    "mood": [
+      "industrial sublime",
+      "mechanical evolution",
+      "perpetual growth",
+      "endless expansion",
+      "cold precision",
+      "automated grandeur",
+      "post-human industry",
+      "void-touched",
+      "geometrically perfect",
+      "titanically scaled",
+      "eerily beautiful",
+      "mechanically alive",
+      "cosmically vast",
+      "relentlessly constructing",
+      "hauntingly industrial",
+      "monumentally imposing",
+      "alien engineering",
+      "dystopian wonder",
+      "technological sublime",
+      "infinite iteration"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": ["megastructure", "tower", "facade", "processing unit", "pylon", "plateau", "valve", "node", "arch", "labyrinth", "metropolis", "array", "chamber", "drone", "swarm", "fleet", "conduit", "stream", "panel", "shell"],
+      "patterns": ["^a ", "^an ", "^the ", "^endless ", "^vast ", "^colossal ", "^titanic ", "^angular ", "^massive "]
+    },
+    "action": {
+      "keywords": ["stretching", "piercing", "extending", "rising", "rippling", "weaving", "navigating", "pulsing", "capturing", "processing", "flowing", "moving", "crackling", "dissolving", "casting", "shifting", "hanging", "disappearing"],
+      "patterns": ["ing\\s+(beyond|through|into|from|between|across|in|on|at|over|above|below|near)"]
+    },
+    "environment": {
+      "keywords": ["void", "horizon", "shell", "canyon", "expanse", "darkness", "haze", "forest", "tapestry", "channel", "chamber", "curvature", "cliff", "surface"],
+      "patterns": ["^the ", "^in ", "^across ", "^through ", "^between "]
+    },
+    "style": {
+      "keywords": ["brutalist", "industrial", "geometric", "metallic", "crystalline", "fractalized", "polished", "translucent", "adaptive", "living metal", "self-repairing", "nanite"],
+      "patterns": ["aesthetic$", "style$", "texture$", "patterns$", "appearance$", "surface$"]
+    },
+    "lighting": {
+      "keywords": ["ultraviolet", "cobalt", "violet", "purple", "blue", "glow", "illumination", "starlight", "prismatic", "aurora", "bioluminescent", "pulsing", "cold"],
+      "patterns": ["lighting$", "light$", "glow$", "illumination$", "fire$", "arcs$"]
+    },
+    "camera": {
+      "keywords": ["shot", "view", "perspective", "angle", "panorama", "POV", "approach", "establishing"],
+      "patterns": ["shot$", "view$", "perspective$", "angle$", "panorama$"]
+    },
+    "details": {
+      "keywords": ["detailed", "resolution", "masterpiece", "intricate", "precision", "ray-traced", "photorealistic", "rendering", "sharp", "extreme"],
+      "patterns": ["detailed$", "quality$", "^\\d+k", "rendering$", "detail$"]
+    },
+    "mood": {
+      "keywords": ["sublime", "evolution", "growth", "expansion", "precision", "grandeur", "vast", "beautiful", "alive", "imposing", "wonder", "infinite"],
+      "patterns": ["atmosphere$", "mood$", "feeling$"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details", "style"],
+    "never_override": ["subject"],
+    "standard": ["lighting", "environment", "camera"],
+    "optional": ["mood", "action"]
+  },
+
+  "anti_pairs": {
+    "underwater": ["void", "stellar", "space", "orbital"],
+    "organic": ["brutalist", "geometric", "metallic", "industrial"],
+    "warm lighting": ["cold blue", "violet", "ultraviolet", "void-darkness"],
+    "golden hour": ["deep space", "void", "cold starlight"],
+    "natural": ["brutalist", "industrial", "megastructure", "processing"],
+    "small scale": ["colossal", "titanic", "planetary", "kilometer"],
+    "medieval": ["nanite", "energy conduit", "self-repairing", "processing"],
+    "rustic": ["brutalist", "living metal", "adaptive", "void-facing"],
+    "pastoral": ["industrial", "processing", "construction swarm", "megastructure"]
+  }
+}
