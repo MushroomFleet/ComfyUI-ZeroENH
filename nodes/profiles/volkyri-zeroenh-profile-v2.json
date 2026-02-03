@@ -1,0 +1,369 @@
+{
+  "name": "Volkyri",
+  "description": "Prompt enhancement system for the Volkyri aesthetic. Transforms ANY input into the visual language of ancient starfaring warrior-attendants from the Hel Vortex system. CRITICAL: Every output MUST include the mono-horn (single asymmetrical horn from LEFT or RIGHT temple, never centered), metallic bodysuit, approved expression, and dramatic lighting.",
+  "version": "2.1.0",
+  "type": "enhancement",
+
+  "_design_notes": {
+    "intent": "This is a TRANSFORMATION system, not a theme generator. Any input becomes Volkyri.",
+    "mono_horn_rule": "The half-horn is the single most important visual identifier. It MUST appear in every output with: (1) temple side specified, (2) shape variant named, (3) bone-origin language.",
+    "mandatory_elements": ["mono-horn with full specification", "metallic bodysuit with metal+accent", "approved expression", "dramatic lighting", "style tag"]
+  },
+
+  "templates": [
+    "Volkyri {role} in {metal} bodysuit with {accent} accents, {mono_horn}, {action}, {expression}, {environment}, {lighting}, {camera}, {details}, {style_tag}",
+    "Volkyri {role} in {metal} bodysuit with {accent} accents, {mono_horn}, {expression}, {environment}, {lighting}, {camera}, {details}, {style_tag}",
+    "{camera}, Volkyri {role} in {metal} bodysuit with {accent} accents, {mono_horn}, {action}, {expression}, {environment}, {lighting}, {details}, {style_tag}",
+    "Volkyri {role} in {metal} bodysuit with {accent} accents, {mono_horn}, {environment}, {expression}, {lighting}, {details}, {camera}, {style_tag}",
+    "{style_tag}, Volkyri {role} in {metal} bodysuit with {accent} accents, {mono_horn}, {action}, {environment}, {expression}, {lighting}, {camera}, {details}"
+  ],
+
+  "pools": {
+    "role": [
+      "warrior-scholar",
+      "sentinel",
+      "assassin",
+      "diplomat",
+      "beast-handler",
+      "hunt-mistress",
+      "acrobat-assassin",
+      "executioner",
+      "bodyguard",
+      "mercenary",
+      "honor guard",
+      "commander",
+      "pilot",
+      "attendant",
+      "overseer",
+      "warden",
+      "blade-dancer",
+      "infiltrator",
+      "priestess",
+      "champion",
+      "matriarch",
+      "enforcer",
+      "scout",
+      "vanguard",
+      "shadow",
+      "battle-maiden",
+      "keeper",
+      "arbiter",
+      "huntress"
+    ],
+
+    "metal": [
+      "gold chrome",
+      "silver chrome",
+      "bronze metallic",
+      "gunmetal",
+      "void chrome",
+      "copper metallic",
+      "polished silver",
+      "antiqued bronze",
+      "mirror-black chrome",
+      "warm gold metallic",
+      "cool silver metallic",
+      "dark gunmetal",
+      "rich copper"
+    ],
+
+    "accent": [
+      "absolute black",
+      "deep purple",
+      "crimson red",
+      "pale gray",
+      "dark teal",
+      "black panel",
+      "purple trim",
+      "crimson trim",
+      "white trim",
+      "charcoal",
+      "midnight purple",
+      "blood red",
+      "ash gray"
+    ],
+
+    "mono_horn": [
+      "single swept-blade half-horn growing from left temple with chrome sheathing",
+      "single swept-blade half-horn growing from right temple with polished metal finish",
+      "single conical spire horn emerging from left temple with bone ridges visible at skull fusion",
+      "single conical spire horn emerging from right temple fused to skull bone",
+      "single geometric plated half-horn fused to left skull catching harsh light",
+      "single geometric plated half-horn fused to right temple with angular facets",
+      "single flame-swept horn growing from left temple in graceful backward curve",
+      "single flame-swept horn growing from right temple bone with metal sheath",
+      "single spiral-twist horn emerging from left temple with bone structure visible beneath plating",
+      "single spiral-twist horn emerging from right skull with ceremonial metal bands",
+      "single curved-talon half-horn fused to left temple like predator claw",
+      "single curved-talon half-horn fused to right skull in smooth backward arc",
+      "asymmetrical half-horn jutting from left temple at aggressive angle with chrome finish",
+      "asymmetrical half-horn jutting from right temple breaking facial symmetry with gunmetal sheath",
+      "single swept-blade horn from left skull with bone visible at fusion point",
+      "single swept-blade horn from right skull in matte black finish",
+      "single conical half-horn growing from left temple at sharp angle",
+      "single conical half-horn growing from right temple with polished sheathing",
+      "single geometric horn emerging from left skull with crystalline faceted surface",
+      "single geometric horn emerging from right skull with bronze metal plating",
+      "single flame-swept half-horn fused to left temple in frozen-fire shape",
+      "single flame-swept half-horn fused to right temple with gold sheath",
+      "single spiral horn from left skull with intricate twist pattern",
+      "single spiral horn from right skull catching rim light along its length",
+      "single curved-talon horn growing from left temple with predatory sweep",
+      "single curved-talon horn growing from right temple in aggressive arc"
+    ],
+
+    "expression": [
+      "expression of cold assessment evaluating her surroundings",
+      "expression of subtle menace with slight dangerous smile",
+      "expression of regal composure neutral and unreadable",
+      "expression of fierce focus with combat-ready intensity",
+      "expression of glacial serenity masking lethal capability",
+      "expression of proud defiance with chin raised unwavering",
+      "cold evaluating gaze suggesting controlled lethality",
+      "subtle menacing half-smile promising danger",
+      "dignified neutral expression of aristocratic bearing",
+      "intense focused stare locked on target",
+      "serene calm belying deadly skill",
+      "defiant upward gaze radiating superiority",
+      "predatory stillness in her features",
+      "composed mask revealing nothing",
+      "fierce concentration etched across angular features"
+    ],
+
+    "action": [
+      "standing at rigid attention",
+      "surveying with cold assessment",
+      "kneeling in ceremonial pose",
+      "striding purposefully forward",
+      "commanding with raised gloved hand",
+      "holding ancient data-tome",
+      "gripping ritual blade",
+      "maintaining vigil",
+      "executing precise combat form",
+      "presenting ceremonial weapon",
+      "guarding the threshold",
+      "ascending obsidian steps",
+      "seated on throne fragment",
+      "leaping with lethal precision",
+      "materializing from shadows",
+      "turning in profile to reveal horn silhouette",
+      "restraining armored war-hound",
+      "inspecting troops",
+      "meditating in martial stillness",
+      "pivoting mid-combat"
+    ],
+
+    "environment": [
+      "within angular throne chamber of black metal architecture",
+      "on obsidian shores beneath metallic auroras",
+      "inside fortress megastructure with harsh pooling shadows",
+      "amid volcanic terrain with magma glow and ash-filled sky",
+      "in ceremonial hall with deep angular shadows",
+      "against void of space with distant nebula backdrop",
+      "within petrified grove of crystalline vegetation",
+      "in industrial gothic corridors",
+      "inside dimly lit archive chamber",
+      "overlooking jagged obsidian peaks under dying suns",
+      "at angular black-metal table within fortress refectory",
+      "across ash fields beneath perpetual twilight",
+      "on command deck overlooking planetary descent",
+      "under Niflheim-IX skies with metallic aurora",
+      "in weapons vault with geometric display cases",
+      "at rocky volcanic cliffs at galaxy edge",
+      "within meditation chamber of obsidian floors",
+      "in tribunal hall with angular throne dais",
+      "inside crystalline caverns with metallic mineral veins",
+      "in training arena under harsh overhead light"
+    ],
+
+    "lighting": [
+      "dramatic rim lighting from behind catching metallic surfaces",
+      "single harsh key light casting deep shadows across angular features",
+      "metallic bodysuit catching brilliant specular highlights",
+      "purple accent gel lighting adding depth",
+      "blue accent gel lighting creating cold atmosphere",
+      "red accent gel lighting suggesting danger",
+      "twilight ambience with metallic aurora glow",
+      "harsh directional light from dying suns",
+      "strong side lighting emphasizing horn silhouette",
+      "underlighting from molten ground creating dramatic shadows",
+      "harsh overhead light casting facial shadows",
+      "triple-sun lighting in gold amber and crimson hues",
+      "rim light catching chrome horn surface",
+      "dramatic backlight creating sharp silhouette",
+      "cold blue-white directional lighting",
+      "chiaroscuro lighting with hard shadows and bright highlights"
+    ],
+
+    "camera": [
+      "medium shot showing full horn silhouette",
+      "close-up portrait emphasizing asymmetrical horn",
+      "three-quarter view revealing temple horn clearly",
+      "slight low angle emphasizing regal bearing and power",
+      "profile shot showcasing single horn projection",
+      "full body shot with martial stance",
+      "environmental wide shot with figure as focal anchor",
+      "medium close-up centered composition",
+      "action shot frozen at apex of movement",
+      "low angle emphasizing authority",
+      "wide shot showing scale against environment",
+      "tight portrait on expression and horn detail",
+      "cinematic widescreen framing",
+      "Dutch angle for tension"
+    ],
+
+    "details": [
+      "pale porcelain skin contrasting dark metallic attire",
+      "visible bone structure at horn fusion point",
+      "chrome-sheathed horn catching light",
+      "form-fitting liquid metal armor appearance",
+      "polished metallic sheen across bodysuit",
+      "sharp angular features",
+      "elongated limbs with martial poise",
+      "dark hair slicked back from asymmetrical horn",
+      "amber eyes with cold gaze",
+      "reflective chrome surfaces",
+      "metal plating visible on half-horn",
+      "subtle metallic threading in bodysuit",
+      "bone texture transitioning to metal sheath at horn base",
+      "sharp cheekbones and defined jawline",
+      "gloved hands with articulated fingers",
+      "8k highly detailed",
+      "photorealistic metallic rendering"
+    ],
+
+    "style_tag": [
+      "Volkyri aesthetic feminine martial elegance",
+      "Hel Vortex aesthetic",
+      "Volkyri aesthetic dangerous elegance",
+      "Hel Vortex origin aesthetic",
+      "Volkyri aesthetic lethal grace",
+      "Volkyri aesthetic controlled lethality",
+      "Hel Vortex homeworld aesthetic",
+      "Volkyri aesthetic warrior-attendant visual style"
+    ]
+  },
+
+  "classification": {
+    "role": {
+      "keywords": ["warrior", "sentinel", "assassin", "diplomat", "scholar", "handler", "mistress", "acrobat", "executioner", "bodyguard", "mercenary", "guard", "commander", "pilot", "attendant", "warden", "infiltrator", "priestess", "champion", "matriarch", "enforcer", "scout", "maiden", "huntress", "keeper", "arbiter", "shadow", "vanguard"],
+      "patterns": ["volkyri\\s+\\w+"]
+    },
+    "metal": {
+      "keywords": ["gold", "silver", "bronze", "gunmetal", "chrome", "copper", "metallic", "void", "mirror", "polished", "antiqued"],
+      "patterns": ["(gold|silver|bronze|gunmetal|copper|chrome)\\s*(metallic|chrome)?"]
+    },
+    "accent": {
+      "keywords": ["black", "purple", "crimson", "gray", "teal", "trim", "panel", "red", "white", "charcoal", "midnight", "blood", "ash"],
+      "patterns": ["(black|purple|crimson|gray|teal|red|white)\\s*(accent|trim|panel)?"]
+    },
+    "mono_horn": {
+      "keywords": ["horn", "half-horn", "temple", "skull", "swept-blade", "conical", "spire", "geometric", "plated", "flame-swept", "spiral", "twist", "curved-talon", "asymmetrical", "single", "fused", "growing", "emerging"],
+      "patterns": ["single.*horn", "half-horn", "(left|right)\\s*temple", "fused to (skull|temple)", "(growing|emerging) from"]
+    },
+    "expression": {
+      "keywords": ["expression", "cold", "assessment", "menace", "regal", "composure", "fierce", "focus", "glacial", "serenity", "proud", "defiance", "gaze", "stare", "smile", "calm", "evaluating", "neutral", "intense", "predatory"],
+      "patterns": ["expression of", "\\w+ gaze", "\\w+ stare"]
+    },
+    "action": {
+      "keywords": ["standing", "surveying", "kneeling", "striding", "commanding", "holding", "gripping", "maintaining", "executing", "presenting", "guarding", "ascending", "seated", "leaping", "materializing", "turning", "restraining", "inspecting", "meditating", "pivoting"],
+      "patterns": ["ing\\s+(at|in|with|forward|from|on)"]
+    },
+    "environment": {
+      "keywords": ["throne", "chamber", "obsidian", "fortress", "volcanic", "ceremonial", "void", "space", "petrified", "grove", "industrial", "archive", "peaks", "refectory", "ash", "fields", "twilight", "command", "niflheim", "vault", "cliffs", "meditation", "tribunal", "caverns", "arena"],
+      "patterns": ["^within", "^inside", "^in ", "^on ", "^at ", "^amid", "^against", "^overlooking", "^across", "^under"]
+    },
+    "lighting": {
+      "keywords": ["lighting", "light", "rim", "key", "specular", "highlights", "accent", "gel", "twilight", "aurora", "directional", "suns", "backlight", "underlighting", "overhead", "chiaroscuro", "shadows"],
+      "patterns": ["lighting$", "light$", "highlights$", "shadows$"]
+    },
+    "camera": {
+      "keywords": ["shot", "portrait", "angle", "view", "close-up", "medium", "wide", "full", "body", "profile", "environmental", "action", "cinematic", "widescreen", "framing", "dutch", "tight"],
+      "patterns": ["shot$", "angle$", "view$", "portrait$", "framing$"]
+    },
+    "details": {
+      "keywords": ["pale", "porcelain", "skin", "bone", "chrome", "metallic", "sheen", "angular", "features", "limbs", "hair", "eyes", "amber", "reflective", "plating", "texture", "8k", "photorealistic", "detailed"],
+      "patterns": ["detailed$", "rendering$", "^\\d+k"]
+    },
+    "style_tag": {
+      "keywords": ["volkyri", "aesthetic", "hel", "vortex", "elegance", "martial", "lethal", "grace", "lethality", "origin", "homeworld"],
+      "patterns": ["aesthetic$", "Volkyri aesthetic", "Hel Vortex"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["mono_horn", "metal", "accent", "expression", "lighting", "style_tag"],
+    "never_override": [],
+    "standard": ["role", "environment", "camera", "details"],
+    "optional": ["action"]
+  },
+
+  "anti_pairs": {
+    "centered horn": ["half-horn", "temple", "asymmetrical", "left temple", "right temple"],
+    "unicorn horn": ["half-horn", "temple", "asymmetrical", "single"],
+    "forehead horn": ["temple", "left temple", "right temple", "skull"],
+    "two horns": ["single", "half-horn", "asymmetrical"],
+    "paired horns": ["single", "half-horn", "one temple"],
+    "horns": ["single horn", "half-horn", "mono-horn"],
+    "antlers": ["single horn", "half-horn", "conical", "swept-blade"],
+    "branching": ["single", "solid form", "half-horn"],
+    "symmetrical": ["asymmetrical", "half-horn", "one temple"],
+    "warm smile": ["cold assessment", "menace", "glacial", "fierce"],
+    "friendly": ["menace", "lethality", "predatory", "cold"],
+    "vulnerable": ["controlled", "regal", "fierce", "lethal"],
+    "fear": ["composure", "defiance", "serenity", "focus"],
+    "casual": ["martial", "regal", "ceremonial", "rigid"],
+    "relaxed": ["attention", "vigilant", "alert", "tense"],
+    "playful": ["menace", "cold", "lethal", "deadly"],
+    "cute": ["lethal", "dangerous", "predatory", "martial"],
+    "kawaii": ["warrior", "executioner", "assassin", "combat"],
+    "soft lighting": ["harsh", "dramatic", "deep shadows", "chiaroscuro"],
+    "diffused light": ["specular", "rim lighting", "hard shadows"],
+    "flat lighting": ["dramatic", "rim", "harsh key", "contrast"],
+    "golden hour": ["dying suns", "twilight", "metallic aurora", "void"],
+    "bright cheerful": ["deep shadows", "pooling shadows", "harsh", "dark"],
+    "naturalistic": ["dramatic", "harsh", "accent gel", "rim"],
+    "pastel": ["void chrome", "gunmetal", "obsidian", "black"],
+    "bright colors": ["chrome", "gunmetal", "dark", "black accent"],
+    "wings": ["volkyri", "bodysuit", "form-fitting"],
+    "cape": ["metallic bodysuit", "form-fitting", "chrome"],
+    "flowing robes": ["bodysuit", "liquid metal", "form-fitting"],
+    "loose cloth": ["metallic", "chrome", "armor", "bodysuit"],
+    "plate armor": ["bodysuit", "form-fitting", "liquid metal"],
+    "bulky armor": ["sleek", "form-fitting", "metallic bodysuit"],
+    "male": ["volkyri", "she", "her", "matriarchal", "all-female"],
+    "he": ["she", "her", "volkyri", "female"],
+    "his": ["her", "volkyri", "warrior-maiden"],
+    "jeans": ["bodysuit", "metallic", "chrome"],
+    "t-shirt": ["bodysuit", "form-fitting", "metallic"],
+    "modern clothes": ["bodysuit", "armor", "chrome", "metallic"]
+  },
+
+  "negative_prompt_additions": [
+    "centered horn",
+    "forehead horn", 
+    "unicorn horn",
+    "two horns",
+    "paired horns",
+    "symmetrical horns",
+    "antlers",
+    "branching horns",
+    "ram horns",
+    "devil horns",
+    "demon horns",
+    "helmet decoration horn",
+    "removable horn",
+    "male",
+    "wings",
+    "cape",
+    "flowing robes",
+    "plate armor",
+    "soft lighting",
+    "flat lighting",
+    "bright cheerful",
+    "warm friendly smile",
+    "casual pose",
+    "vulnerable expression",
+    "pastel colors"
+  ]
+}

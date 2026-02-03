@@ -496,20 +496,34 @@ def classify_token_multi(token: str, classification: dict) -> list:
     return categories if categories else ["unclassified"]
 
 
-def classify_all_tokens(tokens: list, classification: dict) -> dict:
+def classify_all_tokens(tokens: list, classification: dict, pools: dict = None) -> dict:
     """
     Classify all tokens, allowing multi-category assignment.
     Returns dict mapping category -> list of tokens.
+
+    Dynamically derives categories from profile pools for custom profile support.
+    Falls back to ORDERED_CATEGORIES if no pools provided.
     """
-    classified = {cat: [] for cat in ORDERED_CATEGORIES}
+    # Derive categories from pools (supports custom profiles) or fall back to default
+    if pools:
+        categories = sorted(pools.keys())  # Sorted for determinism
+    else:
+        categories = ORDERED_CATEGORIES
+
+    classified = {cat: [] for cat in categories}
     classified["unclassified"] = []
-    
+
     for token in tokens:
-        categories = classify_token_multi(token, classification)
-        for cat in categories:
+        categories_matched = classify_token_multi(token, classification)
+        matched = False
+        for cat in categories_matched:
             if cat in classified:
                 classified[cat].append(token)
-    
+                matched = True
+        # If no category matched, mark as unclassified
+        if not matched and not categories_matched:
+            classified["unclassified"].append(token)
+
     return classified
 
 
@@ -791,9 +805,10 @@ def enhance_prompt(
     
     # === PHASE 1: TOKENIZE ===
     tokens = tokenize(input_prompt)
-    
+
     # === PHASE 2: CLASSIFY (multi-category) ===
-    classified = classify_all_tokens(tokens, classification)
+    # Pass pools to derive categories dynamically (supports custom profiles)
+    classified = classify_all_tokens(tokens, classification, pools)
     
     # === PHASE 3: FIND GAPS ===
     gaps = find_gaps(classified, pools)
@@ -825,9 +840,12 @@ def enhance_prompt(
     
     # === PHASE 5: SELECT TEMPLATE & BUILD COMPONENTS ===
     template = select_template(seed, input_hash, templates)
-    
+
+    # Derive ordered categories from profile pools (supports custom profiles)
+    profile_categories = sorted(pools.keys())  # Sorted for determinism
+
     components = {}
-    for category in ORDERED_CATEGORIES:
+    for category in profile_categories:
         if category in classified and classified[category]:
             # User provided - keep original
             components[category] = ", ".join(classified[category])
@@ -1009,9 +1027,11 @@ class DJZZeroENHProfileInfo:
             "",
             "Pool Sizes:",
         ]
-        
-        for pool_name in ORDERED_CATEGORIES:
-            pool_items = profile_data.get('pools', {}).get(pool_name, [])
+
+        # Dynamically list all pools from profile (supports custom categories)
+        profile_pools = profile_data.get('pools', {})
+        for pool_name in sorted(profile_pools.keys()):
+            pool_items = profile_pools.get(pool_name, [])
             lines.append(f"  {pool_name}: {len(pool_items)} entries")
         
         lines.append(f"  templates: {len(profile_data.get('templates', []))} variations")

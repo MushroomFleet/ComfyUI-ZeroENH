@@ -6,12 +6,12 @@
 
   "templates": [
     "{subject}, {environment}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
-    "{style}, {subject}, {environment}, {lighting}, {details}, {mood} scene",
-    "{camera}, {subject}, {environment}, {style}, {lighting}, {details}",
-    "{mood} industrial vista, {subject}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {style}, {environment}, {lighting}, {details}, {mood} scene",
+    "{subject}, {camera}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {mood} industrial vista, {environment}, {style}, {lighting}, {details}",
     "{subject}, {action}, {environment}, {style}, {lighting}, {details}",
-    "{style}, {subject}, {action}, {environment}, {lighting}, {camera}, {details}",
-    "{environment}, {subject}, {style}, {lighting}, {details}, {mood} atmosphere",
+    "{subject}, {action}, {style}, {environment}, {lighting}, {camera}, {details}",
+    "{subject}, {environment}, {style}, {lighting}, {details}, {mood} atmosphere",
     "{subject}, {environment}, {lighting}, {style}, {details}, planetary scale"
   ],
 
