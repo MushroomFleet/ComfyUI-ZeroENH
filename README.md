@@ -3,9 +3,9 @@
 **Deterministic Prompt Enhancement via Procedural Augmentation**
 
 # Part of the DJZ-Zerobytes 0(1) procedural collection
-https://github.com/MushroomFleet/ComfyUI-DJZ-ZeroPrompt
-https://github.com/MushroomFleet/ComfyUI-ZeroENH
-https://github.com/MushroomFleet/ComfyUI-ZeroEDIT-nodes
+- https://github.com/MushroomFleet/ComfyUI-DJZ-ZeroPrompt
+- https://github.com/MushroomFleet/ComfyUI-ZeroENH
+- https://github.com/MushroomFleet/ComfyUI-ZeroEDIT-nodes
 
 ZeroENH enhances input prompts with contextually appropriate additions using O(1) coordinate hashing. The same `(input_prompt, seed, intensity)` combination always produces identical enhanced output - everywhere, every time.
 
