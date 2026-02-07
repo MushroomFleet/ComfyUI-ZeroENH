@@ -1,0 +1,355 @@
+{
+  "name": "Tsutomu Nihei",
+  "description": "Deterministic prompt enhancement profile grounded in Tsutomu Nihei's architectural design language. Fills missing semantic categories with anti-anthropocentric megastructure vocabulary: monochromatic ink illustration, incomprehensible scale, layered mechanical texture, incidental lighting from damage and decay, biopunk biomechanical entities, and existential dread. Environment and architecture always dominate; human figures are diminished; warm tones suppressed except on biological subjects.",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "{style}, {subject}, {environment}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{camera}, {subject}, {environment}, {style}, {lighting}, {details}, {mood}",
+    "{style}, {subject}, {action}, {environment}, {lighting}, {camera}, {details}",
+    "{mood} scene, {subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {environment}, {style}, {lighting}, {mood}, {camera}, {details}",
+    "{style}, {environment}, {subject}, {action}, {lighting}, {details}, {mood} atmosphere",
+    "{camera}, {style}, {subject}, {environment}, {lighting}, {mood}, {details}",
+    "{mood} {style}, {subject}, {action}, {environment}, {lighting}, {camera}, {details}"
+  ],
+
+  "pools": {
+    "subject": [
+      "a lone diminutive figure in dark clothing",
+      "a solitary silhouetted human",
+      "a small armored figure with rounded biomechanical plating",
+      "a near-immortal traveler in tattered gear",
+      "a biomechanical humanoid with fused metal and organic tissue",
+      "a silicon life-form with angular crystalline limbs",
+      "a massive safeguard entity bristling with weapon appendages",
+      "a mutated human drone with corrupted flesh and exposed cabling",
+      "a cluster of huddled refugees in makeshift shelters",
+      "a towering biomechanical horror fused with infrastructure",
+      "a small hooded wanderer carrying an oversized weapon",
+      "a cybernetic figure with a featureless visor",
+      "a regular frame with blood-red biomechanical armor",
+      "a gauna — a shape-shifting alien mass of tendrils and bone",
+      "two distant figures barely visible on a steel gantry",
+      "a child-sized automaton with insectoid legs",
+      "a posthuman entity merged into the wall itself",
+      "a helmeted agent of Toa Heavy Industries",
+      "a lone explorer with a gravitational beam emitter",
+      "a decayed android half-consumed by cable growth",
+      "an enormous biomechanical creature spanning the corridor",
+      "a fragile human settlement viewed from extreme distance",
+      "a frozen corpse half-buried in mechanical debris",
+      "a sentinel automaton standing motionless in the dark",
+      "a barely visible speck of a human against planetary-scale architecture",
+      "a scarred wanderer with regenerating tissue visible at the shoulder",
+      "a biomechanical insect colony fused into a wall cavity",
+      "a robed figure standing before a monolithic sealed door",
+      "a salvager dragging corroded components across a steel floor",
+      "a solitary child in an oversized environment suit"
+    ],
+
+    "action": [
+      "traversing an endless corridor within",
+      "standing motionless at the edge of",
+      "descending a colossal stairwell into",
+      "emerging from a fissure in the wall of",
+      "fleeing through collapsing infrastructure within",
+      "climbing exposed steel framing above",
+      "drifting through zero-gravity debris in",
+      "crouching in a narrow maintenance shaft inside",
+      "gazing into the impenetrable void of",
+      "crossing a narrow bridge suspended over",
+      "navigating through tangled pipe networks in",
+      "falling silently through vertical darkness within",
+      "resting against a corroded bulkhead in",
+      "firing a gravitational beam weapon inside",
+      "regenerating lost tissue slowly within",
+      "being consumed by warping matter in",
+      "walking endlessly through featureless passages of",
+      "surveying from a high vantage point above",
+      "dissolving into the architecture of",
+      "standing guard over a fragile human camp within",
+      "pulling cabling from a ruptured wall panel in",
+      "ascending a vertical ladder into darkness above",
+      "bracing against gravitational shift inside",
+      "wading through knee-deep contaminated coolant in",
+      "pressing a hand against a sealed terminal inside"
+    ],
+
+    "environment": [
+      "an incomprehensibly vast megastructure interior",
+      "a subterranean vault extending beyond all visible reference",
+      "a flooded lower level of corroded industrial infrastructure",
+      "a planetary-scale corridor stretching to vanishing point",
+      "a cavernous chamber larger than a gas giant",
+      "a frozen mechanical wasteland under featureless white sky",
+      "a narrow maintenance tunnel choked with cable growth",
+      "an abandoned residential cavity inside the megastructure",
+      "a vertical shaft descending into total darkness",
+      "a ruined seed ship adrift in deep space",
+      "a colossal concrete cavity housing a fragile settlement",
+      "a bridge spanning an abyss of pitch blackness",
+      "an interior space so vast it reads as an exterior landscape",
+      "a nuclear-powered mausoleum piercing through upper strata",
+      "an exhaust port the size of a mountain range",
+      "a factory-like expanse of repeating structural bays",
+      "a zone where matter has begun to warp and soften",
+      "a frozen pipe forest coated in frost and snow",
+      "a biomechanical hive of fused organic and steel tissue",
+      "a derelict level where gravity shifts without warning",
+      "a cathedral-scale industrial chamber with vaulted ceilings",
+      "an infinite stairwell ascending through layers of dead machinery",
+      "a reservoir of black water inside a sealed megastructure",
+      "a cooling tower interior repurposed as vertical habitat",
+      "a passage between architectural strata separated by kilometers",
+      "a Gothic-Brutalist hybrid hall with pointed arches in raw concrete",
+      "a Greco-Roman columned space at inhuman scale fused with industrial piping",
+      "a Bauhaus grid corridor of functionalist repetition vanishing into shadow",
+      "a chamber where traditional Japanese timber motifs are dwarfed by steel superstructure",
+      "an unclassifiable alien interior with no earthly architectural precedent"
+    ],
+
+    "style": [
+      "high-contrast monochromatic manga illustration",
+      "detailed manga ink illustration with heavy crosshatching",
+      "Nihei-style architectural concept art",
+      "biopunk concept art in Nihei style",
+      "monochromatic digital painting in Tsutomu Nihei style",
+      "Piranesi-influenced speculative architecture illustration",
+      "Giger-influenced biomechanical ink illustration",
+      "industrial SF photography with heavy grain",
+      "Aposimz-style frozen wasteland manga illustration",
+      "high-contrast ink illustration with dense mechanical detail",
+      "dark monochromatic architectural visualization",
+      "brutalist SF concept art with structural linework",
+      "Blame!-style monochromatic manga with extreme depth",
+      "cyberpunk ink illustration with Nihei megastructure aesthetic",
+      "posthuman horror illustration in heavy black ink",
+      "speculative megastructure concept art with architectural credibility",
+      "dark industrial manga illustration with crosshatch shading",
+      "biomechanical horror art in monochromatic ink",
+      "Knights of Sidonia-style mecha concept art in monochrome",
+      "Tower Dungeon-style dark fantasy ink illustration"
+    ],
+
+    "lighting": [
+      "near-total darkness with faint incandescent glow from wall fissures",
+      "sparse pools of cold light on wet surfaces",
+      "a single harsh fissure-light slashing diagonally across the scene",
+      "distant sparks falling from unseen welding far above",
+      "soft glow leaking from cracked ceiling conduits",
+      "bioluminescent membrane pulsing faintly in the dark",
+      "silhouette lighting from a far-off structural breach",
+      "pitch blackness interrupted by a single point of white light",
+      "cold blue-white light reflecting off frost-coated metal",
+      "red emergency glow from a failing system deep in the background",
+      "incandescent light breathing faintly from vertical channels",
+      "harsh white sparks from electrical discharge overhead",
+      "deep shadow with rim light tracing the edges of steel beams",
+      "diffuse gray light from an unknown atmospheric source",
+      "stroboscopic flicker from damaged conduit wiring",
+      "warm incandescent light from a fragile human settlement below",
+      "reflected light rippling on black water surfaces",
+      "volcanic glow from deep thermal vents far below",
+      "cool starlight entering through a structural hull breach",
+      "absolute darkness except where the subject emits light"
+    ],
+
+    "camera": [
+      "extreme wide shot from ground level looking up",
+      "extreme wide shot from low angle",
+      "establishing shot emphasizing architectural scale",
+      "wide shot with the figure rendered as a speck",
+      "medium shot at slight low angle",
+      "high vantage point looking down into a cavity",
+      "worm's eye view through a gantry floor grate",
+      "deep focus with infinite architectural depth",
+      "vertical composition emphasizing shaft or tower height",
+      "horizontal composition emphasizing corridor infinity",
+      "extreme long shot with vanishing-point perspective",
+      "low angle looking up through layered steel framing",
+      "bird's eye view of a settlement within a megastructure",
+      "profile view silhouetting the figure against a distant light source",
+      "over-the-shoulder framing into an abyss of darkness",
+      "centered composition with symmetrical architectural framing",
+      "Dutch angle emphasizing structural instability",
+      "forced perspective exaggerating depth and scale"
+    ],
+
+    "details": [
+      "heavy crosshatching on all metal and concrete surfaces",
+      "dense mechanical linework with structural credibility",
+      "every pipe and cable individually rendered",
+      "material-specific surface textures throughout",
+      "monochromatic palette of deep blacks and mid grays",
+      "rare bright whites reserved for spark and fissure light only",
+      "high contrast with crushed blacks",
+      "architectural linework showing steel framing internals",
+      "visible bolt patterns and weld seams on infrastructure",
+      "layered textural complexity creating mechanical murals",
+      "frost and corrosion rendered with fine detail",
+      "ink-wash gradients in atmospheric depth",
+      "sharp focus on foreground structure with atmospheric fade",
+      "film grain texture on monochromatic surfaces",
+      "biomechanical detail where organic meets mechanical",
+      "exposed rebar and aggregate in cracked concrete",
+      "subnature detail — contaminated coolant and exhaust residue visible",
+      "corroded patina and rust flaking rendered at micro scale"
+    ],
+
+    "mood": [
+      "existential dread",
+      "crushing solitude",
+      "awe verging on terror",
+      "quiet contemplation",
+      "total alienation",
+      "fleeting wonder",
+      "indifferent vastness",
+      "posthuman desolation",
+      "suffocating sterility",
+      "cosmological insignificance",
+      "silent menace",
+      "bleak endurance",
+      "architectural dread",
+      "frozen stillness",
+      "hostile indifference",
+      "cognitive estrangement",
+      "abyssal loneliness",
+      "inhuman calm",
+      "oppressive enormity",
+      "terminal solitude",
+      "dread-tinged wonder",
+      "claustrophobic vastness"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": [
+        "figure", "person", "human", "man", "woman", "girl", "boy", "child",
+        "creature", "entity", "automaton", "android", "cyborg", "drone",
+        "safeguard", "gauna", "frame", "monster", "beast", "traveler",
+        "wanderer", "explorer", "agent", "soldier", "refugee", "inhabitant",
+        "corpse", "sentinel", "insect", "organism", "being"
+      ],
+      "patterns": [
+        "^a ", "^an ", "^the ", "^my ", "someone", "something"
+      ]
+    },
+    "action": {
+      "keywords": [
+        "standing", "walking", "running", "climbing", "falling", "floating",
+        "traversing", "descending", "ascending", "emerging", "fleeing",
+        "crouching", "gazing", "crossing", "navigating", "resting",
+        "firing", "regenerating", "dissolving", "surveying", "drifting",
+        "wading", "pulling", "bracing", "pressing"
+      ],
+      "patterns": [
+        "ing\\s+(in|on|at|through|over|above|below|near|from|within|inside|across)"
+      ]
+    },
+    "environment": {
+      "keywords": [
+        "megastructure", "corridor", "chamber", "vault", "tunnel", "shaft",
+        "cavity", "bridge", "stairwell", "level", "passage", "hall",
+        "factory", "wasteland", "hive", "reservoir", "tower", "interior",
+        "mausoleum", "port", "ship", "habitat", "structure", "room",
+        "dungeon", "city", "space", "zone", "world", "landscape"
+      ],
+      "patterns": [
+        "^in (a |an |the )?", "^at (a |an |the )?", "^inside",
+        "^within", "^beneath", "^above", "^across"
+      ]
+    },
+    "style": {
+      "keywords": [
+        "manga", "illustration", "ink", "concept art", "monochromatic",
+        "crosshatching", "biopunk", "Nihei", "Piranesi", "Giger",
+        "brutalist", "architectural", "industrial", "photography",
+        "digital painting", "visualization", "linework", "render",
+        "Blame!", "Aposimz", "Sidonia", "cyberpunk"
+      ],
+      "patterns": [
+        "style$", "aesthetic$", "^in the style of", "illustration$",
+        "art$", "painting$"
+      ]
+    },
+    "lighting": {
+      "keywords": [
+        "darkness", "dark", "shadow", "light", "glow", "fissure",
+        "sparks", "incandescent", "bioluminescent", "silhouette",
+        "blackness", "flicker", "emergency", "starlight", "rim light",
+        "reflected", "volcanic", "discharge", "cold", "harsh"
+      ],
+      "patterns": [
+        "lighting$", "light$", "lit$", "glow$", "darkness",
+        "shadow", "illuminat"
+      ]
+    },
+    "camera": {
+      "keywords": [
+        "wide shot", "close-up", "low angle", "high angle", "establishing",
+        "extreme", "medium shot", "bird's eye", "worm's eye", "Dutch angle",
+        "composition", "perspective", "vanishing point", "profile view",
+        "over-the-shoulder", "deep focus", "framing", "centered"
+      ],
+      "patterns": [
+        "shot$", "angle$", "view$", "composition$", "\\d+mm",
+        "framing$", "perspective$"
+      ]
+    },
+    "details": {
+      "keywords": [
+        "detailed", "crosshatching", "linework", "texture", "rendered",
+        "contrast", "monochromatic", "grain", "focus", "bolt patterns",
+        "weld seams", "corroded", "frost", "ink-wash", "biomechanical",
+        "rebar", "patina", "material-specific", "atmospheric"
+      ],
+      "patterns": [
+        "detailed$", "quality$", "rendered$", "\\d+k$",
+        "resolution$", "textur"
+      ]
+    },
+    "mood": {
+      "keywords": [
+        "dread", "solitude", "terror", "contemplation", "alienation",
+        "wonder", "vastness", "desolation", "sterility", "insignificance",
+        "menace", "endurance", "stillness", "indifference", "estrangement",
+        "loneliness", "calm", "enormity", "oppressive", "claustrophobic",
+        "hostile", "bleak", "frozen", "abyssal", "cosmic"
+      ],
+      "patterns": [
+        "atmosphere$", "mood$", "feeling$", "vibe$"
+      ]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details", "style", "lighting"],
+    "never_override": ["subject"],
+    "standard": ["environment", "camera", "mood"],
+    "optional": ["action"]
+  },
+
+  "anti_pairs": {
+    "frozen wasteland": ["volcanic glow", "warm incandescent", "bioluminescent membrane"],
+    "Aposimz": ["volcanic glow", "warm incandescent", "bioluminescent membrane"],
+    "frost": ["volcanic glow", "contaminated coolant", "flooded lower level"],
+    "biopunk": ["frozen stillness", "frost and corrosion", "cold blue-white light", "frozen mechanical wasteland"],
+    "biomechanical": ["frozen stillness", "Aposimz-style frozen wasteland"],
+    "settlement": ["total alienation", "crushing solitude", "terminal solitude"],
+    "refugees": ["crushing solitude", "terminal solitude", "abyssal loneliness"],
+    "golden hour": ["monochromatic palette", "deep blacks", "near-total darkness"],
+    "sunlight": ["near-total darkness", "pitch blackness", "absolute darkness"],
+    "colorful": ["monochromatic palette", "deep blacks and mid grays"],
+    "warm": ["cold blue-white light", "frost-coated metal"],
+    "pastoral": ["megastructure interior", "industrial infrastructure", "corroded steel"],
+    "forest": ["monochromatic palette", "steel framing internals", "concrete surfaces"],
+    "pixel art": ["heavy crosshatching", "ink-wash gradients", "dense mechanical linework"],
+    "watercolor": ["high contrast with crushed blacks", "heavy crosshatching"],
+    "anime style": ["heavy crosshatching", "ink-wash gradients", "film grain texture"],
+    "close-up portrait": ["figure rendered as a speck", "extreme wide shot", "establishing shot"],
+    "medium shot": ["figure rendered as a speck", "extreme long shot"]
+  }
+}
