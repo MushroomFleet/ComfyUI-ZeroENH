@@ -1,0 +1,290 @@
+{
+  "name": "ZeroENH-Araki",
+  "description": "Hirohiko Araki's JoJo's Bizarre Adventure visual language as a ZeroENH enhancement profile. Renaissance sculpture meets Italian haute couture meets cinematic theatricality. Enhances prompts with dramatic fashion-forward aesthetics, extreme poses, non-naturalistic color palettes, theatrical composition, and chiaroscuro lighting divorced from realism. Designed to inject Araki's signature dramatic energy into any subject.",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "{subject}, {action}, {style}, {lighting}, {camera}, {details}, {mood} atmosphere",
+    "{style}, {subject}, {action}, {environment}, {lighting}, {camera}, {details}",
+    "{camera}, {subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "{mood} scene, {subject}, {action}, {environment}, {style}, {lighting}, {details}",
+    "{subject}, {action}, {environment}, {style}, {lighting}, {mood}, {details}",
+    "{style}, {camera}, {subject}, {action}, {lighting}, {details}, {mood} energy",
+    "theatrical {style}, {subject}, {action}, {environment}, {lighting}, {camera}, {details}",
+    "cinematic {camera}, {subject}, {action}, {style}, {lighting}, {mood}, {details}"
+  ],
+
+  "pools": {
+    "subject": [
+      "a tall imposing man in sharp purple double-breasted suit with gold chain accessories",
+      "a muscular warrior in ornate gold-trimmed purple coat",
+      "an elegant young man in form-fitting black bodysuit with orange geometric accents",
+      "a stylish gangster in cropped mesh top and high-waisted trousers",
+      "a mysterious figure in maximalist fashion with symbolic accessories",
+      "a powerful villain in Versace-inspired bold patterned outfit",
+      "an athletic woman in gender-crossing avant-garde ensemble",
+      "a fashion-forward youth in layered accessories with symbolic motifs",
+      "a menacing antagonist in structured Dior-influenced silhouette",
+      "a determined protagonist in crop top with elaborate harness accessories",
+      "a flamboyant fighter in form-fitting suit with exaggerated shoulders",
+      "a charismatic leader in flowing coat with dramatic collar",
+      "a stoic hero in bodysuit with geometric cutouts",
+      "a cunning strategist in military-inspired jacket with ornate details",
+      "an androgynous beauty in mesh and leather combination",
+      "a confident stand user in high-fashion editorial costume",
+      "a brooding anti-hero in Moschino humor-meets-beauty aesthetic",
+      "a theatrical rival in luxury Italian fashion with personal symbols",
+      "a glamorous assassin in outfit reflecting inner nature and abilities",
+      "an enigmatic stranger in avant-garde structured silhouette",
+      "a fierce combatant in ornate battle-ready couture",
+      "a regal figure in Renaissance-inspired ceremonial garb",
+      "a dangerous predator in sleek dark ensemble with metallic accents",
+      "a striking silhouette in dramatic high-collar longcoat",
+      "a dramatic ensemble of five distinct characters each with unique color identity",
+      "a powerful figure in jewel-encrusted leather armor",
+      "a mysterious woman in asymmetric haute couture gown",
+      "a towering antagonist in gold-embroidered dark vestments",
+      "a lithe fighter in skin-tight suit with bold graphic panels",
+      "a dignified elder in layered ceremonial robes with symbolic pins"
+    ],
+
+    "action": [
+      "striking an extreme contrapposto pose",
+      "standing in exaggerated S-curve stance",
+      "posing with spine arched impossibly",
+      "leaning with weight shifted dramatically to one leg",
+      "holding a Baroque sculpture pose",
+      "twisted dramatically at the torso",
+      "posing in calculated casual lean",
+      "striking a fashion runway pose",
+      "frozen mid-action in dynamic ready stance",
+      "standing in theatrical power stance",
+      "posing with weight thrown back dramatically",
+      "arranged in deliberate triangular composition",
+      "posed like Renaissance sculpture",
+      "standing in extreme hip-angled stance",
+      "striking a Michelangelo-inspired pose",
+      "standing in mannequin-like stillness",
+      "posing with torso twisted against hips",
+      "balancing in gravity-defying stance",
+      "posed with theatrical precision",
+      "standing in confrontational stance",
+      "leaning with curved spine and spread fingers",
+      "commanding in rigid upright pose",
+      "pointing with locked intent from shoulder to fingertip",
+      "framing face dramatically with one raised hand",
+      "posing with arms creating angular geometric shapes",
+      "gesturing with wrists bent at dramatic angles"
+    ],
+
+    "environment": [
+      "a pitch-black void with active negative space directing focus",
+      "a dramatic urban rooftop at dusk",
+      "an ornate Italian palazzo interior",
+      "a crumbling ancient colosseum",
+      "a rain-slicked neon-reflected street",
+      "a baroque cathedral with stained glass",
+      "a desolate desert highway at twilight",
+      "a lavish fashion runway stage",
+      "an abandoned gothic mansion",
+      "a surreal dreamscape with floating geometric forms",
+      "a sun-scorched Mediterranean piazza",
+      "a shadow-drenched underground chamber",
+      "a windswept cliff overlooking the sea",
+      "a decaying Egyptian tomb interior",
+      "a stylized abstract color field backdrop",
+      "an art deco hotel lobby",
+      "a moonlit Venice canal",
+      "a volcanic wasteland with ember-filled air",
+      "a mirrored infinite hallway",
+      "a storm-lashed prison tower",
+      "a vibrant bazaar filled with patterned fabrics",
+      "a stark white void with dramatic shadow planes",
+      "a cracked marble amphitheater",
+      "a twilight garden with sculptural hedges",
+      "a fog-filled harbor with silhouetted ships"
+    ],
+
+    "style": [
+      "dramatic fashion illustration style",
+      "high-impact digital art",
+      "cinematic character portrait",
+      "theatrical staging style",
+      "bold graphic style with clean outlines",
+      "Renaissance anatomical definition",
+      "fashion editorial drama",
+      "haute couture sensibility",
+      "maximum dramatic impact illustration",
+      "dynamic ensemble illustration",
+      "clean graphic linework",
+      "painterly digital illustration",
+      "manga-influenced dramatic art",
+      "fashion photography composition style",
+      "Baroque drama meets modern design",
+      "editorial illustration approach",
+      "fine art meets fashion photography",
+      "Art Nouveau meets Italian futurism",
+      "Caravaggio-inspired digital painting",
+      "high-fashion editorial manga fusion",
+      "bold Pop Art meets classical sculpture",
+      "Klimt-inspired decorative intensity",
+      "operatic visual storytelling style",
+      "ukiyo-e meets Western fashion illustration"
+    ],
+
+    "lighting": [
+      "theatrical chiaroscuro divorced from realistic sources",
+      "face entirely darkened except gleaming eyes",
+      "face half-shadowed with single illuminated eye",
+      "only intense eyes catching light against darkness",
+      "dramatic rim lighting",
+      "harsh spotlight from above",
+      "theatrical spotlight effect",
+      "mood lighting serving emotional truth",
+      "strong shadows across features",
+      "illuminated eyes against shadowed face",
+      "chiaroscuro emphasizing form",
+      "golden hour warmth with deep shadows",
+      "stark high-contrast lighting",
+      "backlighting creating silhouette edges",
+      "dramatic side lighting",
+      "theatrical darkness with selective illumination",
+      "candlelit warmth with Caravaggio shadows",
+      "cold blue moonlight with sharp rim highlights",
+      "dual-tone split lighting in complementary colors",
+      "ember-glow underlighting casting upward shadows"
+    ],
+
+    "camera": [
+      "extreme low angle shot making figure tower monumentally",
+      "low angle emphasizing imposing height and authority",
+      "Dutch angle creating psychological unease",
+      "canted angle conveying wrongness",
+      "worm's eye view for maximum power",
+      "high angle conveying vulnerability",
+      "medium shot from slight low angle",
+      "theatrical Mie staging",
+      "centered composition with commanding presence",
+      "rule of thirds with dramatic offset",
+      "figure positioned against pitch-black negative space",
+      "active negative space directing focus",
+      "cinematic wide establishing shot",
+      "tight framing emphasizing expression",
+      "asymmetric dramatic framing",
+      "extreme close-up on eyes and upper face",
+      "panoramic shot with figure as focal anchor",
+      "over-the-shoulder confrontation framing",
+      "forced perspective exaggerating height"
+    ],
+
+    "details": [
+      "high saturation throughout with non-naturalistic colors",
+      "sharp lineart with bold complementary colors",
+      "clean outlines with saturated non-naturalistic palette",
+      "intricate costume details visible throughout",
+      "Renaissance muscle definition beneath clothing",
+      "fabric textures rendered dramatically",
+      "metallic accessories catching theatrical light",
+      "hair flowing with dramatic movement",
+      "eyes rendered with intense piercing detail",
+      "skin with stylized non-realistic shading",
+      "clothing folds emphasized with sculptural precision",
+      "symbolic motifs integrated throughout design",
+      "highly detailed accessories and jewelry",
+      "crisp graphic rendering with bold color",
+      "fashion-forward attention to every costume detail",
+      "bold purple-gold villain palette dominating",
+      "pink-cyan protagonist color harmony",
+      "orange-black-gold identity colors",
+      "deep violet against golden warmth throughout",
+      "vivid fuchsia pink and ocean blue contrasts",
+      "Gauguin-inspired non-realistic color choices",
+      "emotion-driven palette with surreal color shifts",
+      "each figure rendered with distinct color identity",
+      "elbow bent at impossible angle framing shadowed face",
+      "fingers spread wide like shutter slats",
+      "hands positioned as narrative devices"
+    ],
+
+    "mood": [
+      "menacing presence",
+      "heavy atmospheric tension",
+      "villain energy",
+      "dramatic tension",
+      "heroic resolve",
+      "quiet intensity",
+      "cold fury",
+      "imposing scale",
+      "predatory confidence",
+      "theatrical darkness",
+      "psychological unease",
+      "commanding authority",
+      "mysterious allure",
+      "dangerous elegance",
+      "calculated menace",
+      "defiant energy",
+      "brooding power",
+      "electric anticipation",
+      "operatic grandeur",
+      "mythic gravitas",
+      "seductive danger",
+      "baroque excess",
+      "relentless determination",
+      "statuesque composure"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": ["man", "woman", "warrior", "fighter", "villain", "hero", "figure", "character", "assassin", "stranger", "antagonist", "protagonist", "leader", "beauty", "rival", "predator", "ensemble", "silhouette", "combatant", "strategist", "youth", "gangster"],
+      "patterns": ["^a ", "^an ", "^the ", "^my "]
+    },
+    "action": {
+      "keywords": ["striking", "standing", "posing", "leaning", "twisted", "frozen", "pointing", "framing", "gesturing", "holding", "balancing", "commanding", "arranged"],
+      "patterns": ["ing\\s+(in|on|at|through|over|above|below|near|from|with|like|an|a)"]
+    },
+    "environment": {
+      "keywords": ["void", "rooftop", "palazzo", "colosseum", "street", "cathedral", "highway", "runway", "mansion", "dreamscape", "piazza", "chamber", "cliff", "tomb", "backdrop", "lobby", "canal", "wasteland", "hallway", "tower", "bazaar", "amphitheater", "garden", "harbor"],
+      "patterns": ["^in (a |an |the )?", "^at (a |an |the )?", "^inside", "^a .*(void|room|space|street|interior)"]
+    },
+    "style": {
+      "keywords": ["illustration", "digital art", "portrait", "staging", "graphic", "linework", "editorial", "drama", "manga", "painting", "couture", "fashion", "baroque", "renaissance", "theatrical"],
+      "patterns": ["style$", "aesthetic$", "^in the style of", "illustration$", "approach$"]
+    },
+    "lighting": {
+      "keywords": ["chiaroscuro", "spotlight", "rim", "shadows", "illuminated", "backlit", "moonlight", "golden hour", "high-contrast", "side lighting", "darkness", "gleaming", "glow"],
+      "patterns": ["lighting$", "light$", "lit$", "shadows?$", "illuminat"]
+    },
+    "camera": {
+      "keywords": ["low angle", "high angle", "Dutch angle", "worm's eye", "close-up", "wide shot", "medium shot", "framing", "composition", "negative space", "establishing", "panoramic", "forced perspective"],
+      "patterns": ["shot$", "angle$", "view$", "framing$", "^\\d+mm"]
+    },
+    "details": {
+      "keywords": ["detailed", "saturation", "lineart", "outlines", "textures", "accessories", "palette", "colors", "rendering", "definition", "motifs", "costume", "crisp", "bold"],
+      "patterns": ["detailed$", "quality$", "throughout$", "visible$", "^\\d+k$", "palette"]
+    },
+    "mood": {
+      "keywords": ["menacing", "tension", "villain", "heroic", "intensity", "fury", "imposing", "confidence", "darkness", "unease", "authority", "allure", "elegance", "menace", "defiant", "brooding", "anticipation", "grandeur", "gravitas", "danger"],
+      "patterns": ["atmosphere$", "mood$", "feeling$", "vibe$", "energy$", "presence$"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details"],
+    "never_override": ["subject"],
+    "standard": ["style", "lighting", "camera"],
+    "optional": ["mood", "action", "environment"]
+  },
+
+  "anti_pairs": {
+    "underwater": ["golden hour", "desert", "piazza", "highway", "bazaar", "dusty"],
+    "pixel art": ["Renaissance anatomical definition", "fashion photography composition style", "crisp graphic rendering"],
+    "minimalist": ["maximalist fashion", "ornate", "baroque", "Klimt-inspired", "jewel-encrusted"],
+    "photorealistic": ["manga-influenced", "bold graphic style", "clean graphic linework", "ukiyo-e"],
+    "cute": ["menacing presence", "villain energy", "cold fury", "predatory confidence", "calculated menace"],
+    "pastel": ["high saturation throughout", "bold complementary colors", "non-naturalistic colors", "vivid fuchsia"],
+    "candlelit": ["neon", "stark high-contrast lighting", "cold blue moonlight"],
+    "cave": ["golden hour warmth", "fashion runway stage", "Mediterranean piazza"]
+  }
+}
