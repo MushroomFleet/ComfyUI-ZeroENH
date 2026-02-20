@@ -1,0 +1,215 @@
+{
+  "name": "DragonsHeaven DXH Style",
+  "description": "ZeroENH enhancement profile for the dxh style — a Moebius-inspired, cel-animation aesthetic featuring organic-mechanical hybrid world-building, post-apocalyptic environments, and expressive hand-inked linework. Based on the DragonsHeaven image prompt enhancement system. Always opens with 'dxh style,' and closes with evocative mood language.",
+  "version": "1.0.0",
+  "type": "enhancement",
+
+  "templates": [
+    "dxh style, {camera}, {subject}, {action}, {environment}, {lighting}, {style}, {details}, {mood} atmosphere",
+    "dxh style, {camera}, {subject}, {environment}, {lighting}, {style}, {details}",
+    "dxh style, {style}, {subject}, {environment}, {lighting}, {camera}, {details}, {mood}",
+    "dxh style, {camera}, {subject}, {action}, {environment}, {lighting}, {details}",
+    "dxh style, {mood} scene — {subject}, {environment}, {lighting}, {style}, {details}",
+    "dxh style, {subject}, {environment}, {style}, {lighting}, {camera}, {details}, {mood}"
+  ],
+
+  "pools": {
+    "subject": [
+      "towering dormant war machine with monolithic torso and segmented carapace",
+      "battle-worn war machine with asymmetric silhouette and riveted plating",
+      "organic-mechanical hybrid form with gaping maw-like aperture",
+      "insectoid armour war machine with compound optical sensors glowing crimson",
+      "monolithic war machine chassis with corroded hull and layered pauldrons",
+      "dormant war machine with dark unpowered sensors and exposed hydraulic cables",
+      "awakening war machine with pale cerulean optical sensor glow",
+      "slim naturalistic figure in wrapped layered clothing and long scarf",
+      "hooded figure in worn leather vest and flight goggles",
+      "weathered figure with expressive ink-lined face and determined expression",
+      "crouching figure in layered clothing with flowing cape",
+      "contemplative figure with short cropped hair and trailing scarf",
+      "armoured figure with weathered skin and worn leather gear",
+      "slim figure in hooded cape crouching amid ruins",
+      "war machine mid-crash with shattered optical sensors and engulfed in flame",
+      "clustered machine-spire skyline against negative sky",
+      "ruined war machine overgrown with dense tropical vegetation",
+      "massive crashed hull with riveted plating split open",
+      "pair of war machines locked in energy beam combat",
+      "dormant colossus half-buried in rust-earth terrain",
+      "figure seated at water's edge in contemplative posture",
+      "battle-scarred war machine with oil-slick iridescent surfaces",
+      "war machine torso close-up with stippled texture and weld scars",
+      "mechanical joint detail with exposed hydraulic cables and impact craters",
+      "insectoid war machine with clawed manipulators extended",
+      "war machine with cracked enamel coating and rust-streaked surface",
+      "slim figure with weapon at side against hazy horizon",
+      "figure with back turned overlooking lagoon and ruins",
+      "war machine with articulated limbs in motion blur",
+      "war machine interior cockpit with ambient glow and confined framing"
+    ],
+    "action": [
+      "standing amid ruins in",
+      "crouching in contemplation in",
+      "awakening from dormancy in",
+      "crashing across terrain in",
+      "engaging in energy beam combat in",
+      "looming over figure in",
+      "half-buried and dormant in",
+      "striding through",
+      "collapsing into",
+      "observing from the edge of",
+      "emerging from overgrowth in",
+      "suspended mid-impact in",
+      "falling toward",
+      "gazing across",
+      "entangled with vegetation in"
+    ],
+    "environment": [
+      "post-apocalyptic wasteland with rust-earth terrain and crumbling stone masonry",
+      "dense tropical overgrowth encroaching on corroded ruins",
+      "rust-earth terrain with sparse tangled root systems and reflective water pools",
+      "cracked dry ground with crumbling masonry and exposed metal framework",
+      "serene blue-green lagoon bordered by rust-earth terrain and dormant machine silhouettes",
+      "fog-filled valley with crumbling stone ruins",
+      "sandy dunes under dust-hazed horizon",
+      "clustered machine-spire cityscape with clean negative sky",
+      "dense jungle overgrowth consuming rusted mechanical debris",
+      "wasteland with structural remnants and corroded hull fragments",
+      "open wasteland plain under storm-lit clouds",
+      "interior cockpit enclosed by exposed cables and metalwork",
+      "ruined environment with moss-covered lower edges and deep shadow recesses",
+      "overgrown post-apocalyptic terrain with amber dust haze",
+      "desolate terrain with reflective water pools and crumbling masonry"
+    ],
+    "style": [
+      "Moebius-inspired linework, variable weight outline, cel animation frame, hand-inked line art",
+      "bold contour on mechanical forms, fine stippling on surfaces, dense cross-hatched shading in shadowed recesses",
+      "Moebius cel-shaded aesthetic, variable weight outline, flat colour fill, limited palette",
+      "hand-inked line art, sepia ink wash, cel animation frame aesthetic",
+      "Moebius-inspired linework, bold cel animation edges, dense cross-hatched shading",
+      "fine stippling textures, clean variable weight outline, flat colour fill, cel animation frame",
+      "Moebius linework, motion-implied composition, hand-inked cel animation",
+      "organic-mechanical cel animation aesthetic, Moebius-lineweight, rust-and-cerulean palette",
+      "cross-hatched shadow shading, bold mechanical contours, sepia ink wash treatment"
+    ],
+    "lighting": [
+      "harsh midday sun casting long shadows, dust-hazed horizon",
+      "amber dusk light with deep shadow fill and smoke veil",
+      "storm-lit clouds with cerulean sky breaks and pale light shafts",
+      "pale cerulean light shafts through atmospheric haze",
+      "harsh midday sun on surfaces, deep shadow fill in structure recesses",
+      "amber dust haze under open cerulean sky",
+      "dark storm sky with high contrast flame highlights",
+      "crimson optical sensor glow illuminating nearby surfaces",
+      "pale cerulean sensor glow with ambient mechanical luminescence",
+      "pale green optical sensor glow casting cold light",
+      "energy beam luminescence with trailing ethereal wisps",
+      "fog-diffused pale light with deep shadow fill",
+      "intense orange-red fire bursts with high contrast highlights",
+      "open cerulean sky, harsh midday sun, short shadow casting",
+      "starlit night sky with cool ambient fill"
+    ],
+    "camera": [
+      "wide establishing shot, low angle perspective emphasizing scale against sky",
+      "medium portrait shot, slight low angle, figure centered against hazy horizon",
+      "medium wide shot, horizontal framing, combatants across frame",
+      "wide diagonal shot, low angle emphasizing scale against dark storm sky",
+      "wide landscape shot, level horizon line, foreground water leading to midground ruins",
+      "tight close-up shot on mechanical joint or torso detail",
+      "low angle upward shot, dramatic perspective against open sky",
+      "level horizon architecture shot with clean negative sky space",
+      "interior confined framing, enclosed metalwork perspective",
+      "mid-shot, three-quarter angle, figure in foreground with ruins behind",
+      "extreme low angle shot emphasizing machine height against storm sky",
+      "wide symmetrical shot with machine-spire skyline",
+      "medium close-up, figure portrait with background soft treatment"
+    ],
+    "details": [
+      "limited palette — oxidised copper, iron grey, rust ochre, pale cerulean",
+      "limited palette — warm sepia, iron grey, rust ochre, pale cerulean accents",
+      "limited palette — charcoal shadow, bone white highlight, muted earth tones",
+      "limited palette — rust ochre, charcoal shadow, iron grey, pale cerulean",
+      "accent colours — vivid red fluid, amber dust, moss green overgrowth",
+      "accent colours — orange-red flame, burnt sienna, bone white highlight",
+      "stippled surface textures, oil-slick iridescence, weld scars",
+      "rust streaks, scorched panels, cracked enamel coating, impact craters",
+      "exposed hydraulic cables, riveted plating, corroded hull surface",
+      "detailed foreground figure, looser background treatment",
+      "fine stippling in shadows, dense cross-hatching in recesses",
+      "debris scatter, weld scars, oil-slick iridescent surface details",
+      "high contrast shadow on figure, loose background ink wash",
+      "motion blur on articulated limbs, speed-line implied motion",
+      "moss green accent on lower structural edges, sepia ink wash"
+    ],
+    "mood": [
+      "brooding mechanical ruin evoking isolation in overgrown desolation",
+      "solitary contemplation amid ancient-future desolation",
+      "dramatic descent evoking imminent destruction in overgrown ruins",
+      "ominous awakening tension in post-apocalyptic wasteland",
+      "serene desolation with quiet melancholy",
+      "epic mechanical scale against fragile human presence",
+      "foreboding industrial decay with faint organic renewal",
+      "tense combat energy frozen in cel-animation stillness",
+      "lonely ruin evokes long-silent war and forgotten purpose",
+      "ancient machine slumber under encroaching jungle canopy",
+      "eerie calm before mechanical awakening",
+      "vast post-apocalyptic isolation under open cerulean sky",
+      "smouldering destruction with amber dust settling",
+      "contemplative stillness at the edge of ancient ruin",
+      "oppressive mechanical dominance over fragile human figure"
+    ]
+  },
+
+  "classification": {
+    "subject": {
+      "keywords": ["war machine", "figure", "robot", "mech", "chassis", "carapace", "optical sensor", "pauldron", "cockpit", "colossus", "torso", "hull"],
+      "patterns": ["^a ", "^an ", "^the ", "^slim ", "^towering ", "^battle-worn ", "^dormant ", "^massive "]
+    },
+    "action": {
+      "keywords": ["crashing", "awakening", "crouching", "standing", "looming", "striding", "collapsing", "emerging", "gazing", "observing", "engaging"],
+      "patterns": ["ing\\s+(in|on|at|through|over|above|below|near|from|across|into|amid)"]
+    },
+    "environment": {
+      "keywords": ["wasteland", "ruins", "terrain", "overgrowth", "lagoon", "dunes", "valley", "cityscape", "cockpit", "jungle", "masonry"],
+      "patterns": ["^in (a |an |the )?", "^at (a |an |the )?", "^inside", "terrain$", "ruins$", "wasteland$"]
+    },
+    "style": {
+      "keywords": ["Moebius", "cel animation", "hand-inked", "linework", "cross-hatched", "stippling", "sepia", "ink wash", "flat colour", "outline", "shading"],
+      "patterns": ["style$", "aesthetic$", "linework$", "ink art$", "cel animation"]
+    },
+    "lighting": {
+      "keywords": ["sun", "shadow", "glow", "haze", "amber", "cerulean", "flame", "light", "dusk", "sensor glow", "luminescence", "fire"],
+      "patterns": ["lighting$", "light$", "lit$", "glow$", "sun$", "haze$"]
+    },
+    "camera": {
+      "keywords": ["shot", "angle", "framing", "perspective", "close-up", "wide", "medium", "portrait", "interior", "low angle", "horizontal"],
+      "patterns": ["shot$", "angle$", "view$", "framing$", "perspective$"]
+    },
+    "details": {
+      "keywords": ["palette", "oxidised copper", "rust ochre", "iron grey", "bone white", "charcoal", "stippled", "weld scars", "hydraulic cables", "riveted", "debris"],
+      "patterns": ["palette", "limited palette", "accent colour", "detailed$", "texture$"]
+    },
+    "mood": {
+      "keywords": ["isolation", "desolation", "brooding", "contemplative", "ominous", "serene", "epic", "foreboding", "tense", "eerie", "oppressive", "smouldering"],
+      "patterns": ["atmosphere$", "mood$", "evokes?", "evoking"]
+    }
+  },
+
+  "rules": {
+    "mandatory": ["details", "style"],
+    "never_override": ["subject"],
+    "standard": ["environment", "lighting", "camera"],
+    "optional": ["mood", "action"]
+  },
+
+  "anti_pairs": {
+    "indoor": ["harsh midday sun", "open cerulean sky", "dust-hazed horizon", "storm-lit clouds"],
+    "cockpit": ["wide landscape shot", "wide establishing shot", "level horizon", "open wasteland"],
+    "interior": ["wide establishing shot", "low angle emphasizing scale against sky", "open cerulean sky"],
+    "starlit night": ["harsh midday sun", "amber dusk", "intense orange-red fire"],
+    "serene lagoon": ["crashing across terrain", "mid-impact", "energy beam combat", "motion blur"],
+    "dormant": ["energy beam combat", "crashing", "mid-impact", "motion blur"],
+    "fine stippling": ["motion blur", "speed-line implied motion"],
+    "pale cerulean sensor glow": ["crimson optical sensor glow", "pale green optical sensor glow"],
+    "crimson optical sensor glow": ["pale cerulean sensor glow", "pale green optical sensor glow"]
+  }
+}
